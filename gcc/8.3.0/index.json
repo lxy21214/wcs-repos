@@ -1,0 +1,31 @@
+{
+  "components": [
+    {
+      "filename": "gcc-8.3.0.tar.xz",
+      "format": "tar.xz",
+      "name": "gcc-source",
+      "provides": [
+        "gcc",
+        "g++",
+        "gccgo",
+        "gfortran"
+      ],
+      "role": "source",
+      "sha256": "64baadfe6cc0f4947a84cb12d7f0dfaf45bb58b7e92461639596c21e02d97d2c",
+      "upstream": "GNU FTP",
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-8.3.0/gcc-8.3.0.tar.xz",
+      "version": "8.3.0"
+    }
+  ],
+  "install": "source build",
+  "language": "c/c++",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "release_date": "2019-02-22",
+  "schema_version": 3,
+  "software": "gcc",
+  "version": "8.3.0"
+}

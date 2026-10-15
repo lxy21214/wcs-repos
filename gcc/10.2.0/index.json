@@ -1,0 +1,31 @@
+{
+  "components": [
+    {
+      "filename": "gcc-10.2.0.tar.xz",
+      "format": "tar.xz",
+      "name": "gcc-source",
+      "provides": [
+        "gcc",
+        "g++",
+        "gccgo",
+        "gfortran"
+      ],
+      "role": "source",
+      "sha256": "b8dd4368bb9c7f0b98188317ee0254dd8cc99d1e3a18d0ff146c855fe16c1d8c",
+      "upstream": "GNU FTP",
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-10.2.0/gcc-10.2.0.tar.xz",
+      "version": "10.2.0"
+    }
+  ],
+  "install": "source build",
+  "language": "c/c++",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "release_date": "2020-07-23",
+  "schema_version": 3,
+  "software": "gcc",
+  "version": "10.2.0"
+}

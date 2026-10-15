@@ -1,0 +1,31 @@
+{
+  "components": [
+    {
+      "filename": "gcc-4.9.4.tar.bz2",
+      "format": "tar.bz2",
+      "name": "gcc-source",
+      "provides": [
+        "gcc",
+        "g++",
+        "gccgo",
+        "gfortran"
+      ],
+      "role": "source",
+      "sha256": "6c11d292cd01b294f9f84c9a59c230d80e9e4a47e5c6355f046bb36d4f358092",
+      "upstream": "GNU FTP",
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-4.9.4/gcc-4.9.4.tar.bz2",
+      "version": "4.9.4"
+    }
+  ],
+  "install": "source build",
+  "language": "c/c++",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "release_date": "2016-08-03",
+  "schema_version": 3,
+  "software": "gcc",
+  "version": "4.9.4"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [
+    {
+      "filename": "openjdk-15.0.2_linux-x64_bin.tar.gz",
+      "format": "tar.gz",
+      "name": "jdk",
+      "provides": [
+        "java",
+        "javac"
+      ],
+      "role": "runtime",
+      "sha256": "91ac6fc353b6bf39d995572b700e37a20e119a87034eeb939a6f24356fbcd207",
+      "upstream": "OpenJDK GA build (jdk.java.net)",
+      "url": "https://download.java.net/java/GA/jdk15.0.2/0d1cfde4252546c6931946de8db48ee2/7/GPL/openjdk-15.0.2_linux-x64_bin.tar.gz",
+      "version": "15.0.2"
+    }
+  ],
+  "language": "java",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "java",
+  "version": "15.0.2"
+}

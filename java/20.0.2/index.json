@@ -1,0 +1,29 @@
+{
+  "components": [
+    {
+      "distribution": "oracle-jdk",
+      "filename": "jdk-20.0.2_linux-x64_bin.tar.gz",
+      "format": "tar.gz",
+      "name": "jdk",
+      "provides": [
+        "java",
+        "javac",
+        "jar"
+      ],
+      "role": "sdk",
+      "sha256": "499b59be8e3613c223e76f101598d7c28dc04b8e154d860edf2ed05980c67526",
+      "url": "https://download.oracle.com/java/20/archive/jdk-20.0.2_linux-x64_bin.tar.gz",
+      "vendor": "oracle",
+      "version": "20.0.2"
+    }
+  ],
+  "language": "java",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "java",
+  "version": "20.0.2"
+}

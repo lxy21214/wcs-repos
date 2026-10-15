@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "bundled_components": {
+        "npm": "10.9.8"
+      },
+      "filename": "node-v22.22.3-linux-x64.tar.xz",
+      "format": "xz",
+      "name": "nodejs",
+      "provides": [
+        "node",
+        "corepack"
+      ],
+      "role": "runtime",
+      "sha256": "2e5d13569282d016861fae7c8f935e741693c269101a5bebcf761a5376d1f99f",
+      "url": "https://nodejs.org/dist/v22.22.3/node-v22.22.3-linux-x64.tar.xz",
+      "version": "22.22.3"
+    },
+    {
+      "filename": "npm-10.9.8.tgz",
+      "format": "tgz",
+      "name": "npm",
+      "paired_with": {
+        "nodejs": "22.22.3"
+      },
+      "provides": [
+        "npm",
+        "npx"
+      ],
+      "role": "package-manager",
+      "sha256": "3e68f9b5fcaf1a94ba0e37e6a565c920b2be6bd98998c50970385d6a692af780",
+      "url": "https://registry.npmjs.org/npm/-/npm-10.9.8.tgz",
+      "version": "10.9.8"
+    }
+  ],
+  "language": "javascript",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "nodejs",
+  "version": "22.22.3"
+}

@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "filename": "Python-3.11.17.tgz",
+      "format": "tar.gz",
+      "name": "python-source",
+      "provides": [
+        "python"
+      ],
+      "role": "source",
+      "sha256": "53cdee63ac4bf12387b7b33a53d3b1f8f4941cad73807a7b4fe91bb001ef004a",
+      "upstream": "python.org",
+      "url": "https://www.python.org/ftp/python/3.11.17/Python-3.11.17.tgz",
+      "version": "3.11.17"
+    },
+    {
+      "abi": "gnu",
+      "filename": "cpython-3.11.17+20261013-x86_64_v3-unknown-linux-gnu-pgo+lto-full.tar.zst",
+      "format": "tar.zst",
+      "name": "python",
+      "provides": [
+        "python"
+      ],
+      "role": "runtime",
+      "sha256": "365601da545a5fdfea2e2ab08e548cd82007f5b00becbad05548e53adc0d6dc6",
+      "upstream": "python-build-standalone",
+      "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261013/cpython-3.11.17+20261013-x86_64_v3-unknown-linux-gnu-pgo+lto-full.tar.zst",
+      "version": "3.11.17"
+    },
+    {
+      "filename": "uv-0.11.33-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "format": "whl",
+      "name": "uv",
+      "paired_with": {
+        "python": "3.11.17"
+      },
+      "provides": [
+        "uv"
+      ],
+      "role": "package-manager",
+      "sha256": "9542178978b0b6f16a7ae99e55aca039f493a1edb373a15d7993eab80a28615a",
+      "source": "pypi",
+      "url": "https://files.pythonhosted.org/packages/a3/cb/f0ccaba1bf9b0f778dc883e56f3bfb315e3d974ba36fb7432a067b459528/uv-0.11.33-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "version": "0.11.33"
+    }
+  ],
+  "language": "python",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "release_date": "2026-10-01",
+  "schema_version": 3,
+  "software": "python",
+  "version": "3.11.17"
+}

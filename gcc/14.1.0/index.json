@@ -1,0 +1,31 @@
+{
+  "components": [
+    {
+      "filename": "gcc-14.1.0.tar.xz",
+      "format": "tar.xz",
+      "name": "gcc-source",
+      "provides": [
+        "gcc",
+        "g++",
+        "gccgo",
+        "gfortran"
+      ],
+      "role": "source",
+      "sha256": "e283c654987afe3de9d8080bc0bd79534b5ca0d681a73a11ff2b5d3767426840",
+      "upstream": "GNU FTP",
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-14.1.0/gcc-14.1.0.tar.xz",
+      "version": "14.1.0"
+    }
+  ],
+  "install": "source build",
+  "language": "c/c++",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "release_date": "2024-05-07",
+  "schema_version": 3,
+  "software": "gcc",
+  "version": "14.1.0"
+}

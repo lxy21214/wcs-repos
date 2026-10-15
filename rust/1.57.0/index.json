@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "filename": "rustup-init",
+      "format": "binary",
+      "name": "rustup-init",
+      "provides": [
+        "rustup"
+      ],
+      "role": "installer",
+      "sha256": "dda7234360b7f578ca8b0ddcb80145646fa61a67c1720a5abc7051b35c9fcb71",
+      "url": "https://static.rust-lang.org/rustup/dist/x86_64-unknown-linux-gnu/rustup-init",
+      "version": "latest"
+    },
+    {
+      "filename": "rust-1.57.0-x86_64-unknown-linux-gnu.tar.gz",
+      "format": "tar.gz",
+      "name": "rust",
+      "provides": [
+        "rustc",
+        "cargo",
+        "rust-std"
+      ],
+      "role": "toolchain",
+      "sha256": "ea0253784b2e5c22659ff148d492a68d2e11da734491714ebc61cc93896efcda",
+      "target": "x86_64-unknown-linux-gnu",
+      "url": "https://static.rust-lang.org/dist/rust-1.57.0-x86_64-unknown-linux-gnu.tar.gz",
+      "version": "1.57.0"
+    },
+    {
+      "filename": "rustc-1.57.0-x86_64-unknown-linux-gnu.tar.gz",
+      "format": "tar.gz",
+      "name": "rustc",
+      "provides": [
+        "rustc"
+      ],
+      "role": "compiler",
+      "sha256": "92257646cd85b7c03520c838920851c879845ed8dfd2b339d2ebb4480ee4d4d3",
+      "target": "x86_64-unknown-linux-gnu",
+      "url": "https://static.rust-lang.org/dist/rustc-1.57.0-x86_64-unknown-linux-gnu.tar.gz",
+      "version": "1.57.0"
+    },
+    {
+      "filename": "cargo-1.57.0-x86_64-unknown-linux-gnu.tar.gz",
+      "format": "tar.gz",
+      "name": "cargo",
+      "provides": [
+        "cargo"
+      ],
+      "role": "package-manager",
+      "sha256": "2b341034e4c30bede47a432751935549a28e40b566a1fd4b59c824ccd0a26ff6",
+      "target": "x86_64-unknown-linux-gnu",
+      "url": "https://static.rust-lang.org/dist/cargo-1.57.0-x86_64-unknown-linux-gnu.tar.gz",
+      "version": "1.57.0"
+    },
+    {
+      "filename": "rust-std-1.57.0-x86_64-unknown-linux-gnu.tar.gz",
+      "format": "tar.gz",
+      "name": "rust-std",
+      "provides": [
+        "rust-std"
+      ],
+      "role": "standard-library",
+      "sha256": "9140ad6f46a903345d4297a987ccaf37b9c5ca594cd6fd5a27d0be482116fe7f",
+      "target": "x86_64-unknown-linux-gnu",
+      "url": "https://static.rust-lang.org/dist/rust-std-1.57.0-x86_64-unknown-linux-gnu.tar.gz",
+      "version": "1.57.0"
+    },
+    {
+      "filename": "rustc-1.57.0-src.tar.gz",
+      "format": "tar.gz",
+      "name": "rust-source",
+      "provides": [
+        "rust-src"
+      ],
+      "role": "source",
+      "sha256": "3546f9c3b91b1f8b8efd26c94d6b50312c08210397b4072ed2748e2bd4445c1a",
+      "target": "x86_64-unknown-linux-gnu",
+      "url": "https://static.rust-lang.org/dist/rustc-1.57.0-src.tar.gz",
+      "version": "1.57.0"
+    }
+  ],
+  "language": "rust",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "rust",
+  "version": "1.57.0"
+}

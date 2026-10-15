@@ -1,0 +1,275 @@
+[
+  {
+    "version": "5.5.38",
+    "date": "2016-07-21",
+    "components": [
+      {
+        "name": "php-source",
+        "version": "5.5.38",
+        "filename": "php-5.5.38.tar.xz",
+        "url": "https://www.php.net/distributions/php-5.5.38.tar.xz",
+        "sha256": "cb527c44b48343c8557fe2446464ff1d4695155a95601083e5d1f175df95580f",
+        "role": "source",
+        "provides": [
+          "php",
+          "php-cli",
+          "php-fpm",
+          "phpize"
+        ],
+        "format": "tar.xz"
+      }
+    ]
+  },
+  {
+    "version": "5.6.40",
+    "date": "2019-01-10",
+    "components": [
+      {
+        "name": "php-source",
+        "version": "5.6.40",
+        "filename": "php-5.6.40.tar.xz",
+        "url": "https://www.php.net/distributions/php-5.6.40.tar.xz",
+        "sha256": "1369a51eee3995d7fbd1c5342e5cc917760e276d561595b6052b21ace2656d1c",
+        "role": "source",
+        "provides": [
+          "php",
+          "php-cli",
+          "php-fpm",
+          "phpize"
+        ],
+        "format": "tar.xz"
+      }
+    ]
+  },
+  {
+    "version": "7.0.33",
+    "date": "2019-01-10",
+    "components": [
+      {
+        "name": "php-source",
+        "version": "7.0.33",
+        "filename": "php-7.0.33.tar.xz",
+        "url": "https://www.php.net/distributions/php-7.0.33.tar.xz",
+        "sha256": "ab8c5be6e32b1f8d032909dedaaaa4bbb1a209e519abb01a52ce3914f9a13d96",
+        "role": "source",
+        "provides": [
+          "php",
+          "php-cli",
+          "php-fpm",
+          "phpize"
+        ],
+        "format": "tar.xz"
+      }
+    ]
+  },
+  {
+    "version": "7.1.33",
+    "date": "2019-10-24",
+    "components": [
+      {
+        "name": "php-source",
+        "version": "7.1.33",
+        "filename": "php-7.1.33.tar.xz",
+        "url": "https://www.php.net/distributions/php-7.1.33.tar.xz",
+        "sha256": "bd7c0a9bd5433289ee01fd440af3715309faf583f75832b64fe169c100d52968",
+        "role": "source",
+        "provides": [
+          "php",
+          "php-cli",
+          "php-fpm",
+          "phpize"
+        ],
+        "format": "tar.xz"
+      }
+    ]
+  },
+  {
+    "version": "7.2.34",
+    "date": "2020-10-01",
+    "components": [
+      {
+        "name": "php-source",
+        "version": "7.2.34",
+        "filename": "php-7.2.34.tar.xz",
+        "url": "https://www.php.net/distributions/php-7.2.34.tar.xz",
+        "sha256": "409e11bc6a2c18707dfc44bc61c820ddfd81e17481470f3405ee7822d8379903",
+        "role": "source",
+        "provides": [
+          "php",
+          "php-cli",
+          "php-fpm",
+          "phpize"
+        ],
+        "format": "tar.xz"
+      }
+    ]
+  },
+  {
+    "version": "7.3.33",
+    "date": "2021-11-18",
+    "components": [
+      {
+        "name": "php-source",
+        "version": "7.3.33",
+        "filename": "php-7.3.33.tar.xz",
+        "url": "https://www.php.net/distributions/php-7.3.33.tar.xz",
+        "sha256": "166eaccde933381da9516a2b70ad0f447d7cec4b603d07b9a916032b215b90cc",
+        "role": "source",
+        "provides": [
+          "php",
+          "php-cli",
+          "php-fpm",
+          "phpize"
+        ],
+        "format": "tar.xz"
+      }
+    ]
+  },
+  {
+    "version": "7.4.33",
+    "date": "2022-11-03",
+    "components": [
+      {
+        "name": "php-source",
+        "version": "7.4.33",
+        "filename": "php-7.4.33.tar.xz",
+        "url": "https://www.php.net/distributions/php-7.4.33.tar.xz",
+        "sha256": "924846abf93bc613815c55dd3f5809377813ac62a9ec4eb3778675b82a27b927",
+        "role": "source",
+        "provides": [
+          "php",
+          "php-cli",
+          "php-fpm",
+          "phpize"
+        ],
+        "format": "tar.xz"
+      }
+    ]
+  },
+  {
+    "version": "8.0.30",
+    "date": "2023-08-03",
+    "components": [
+      {
+        "name": "php-source",
+        "version": "8.0.30",
+        "filename": "php-8.0.30.tar.xz",
+        "url": "https://www.php.net/distributions/php-8.0.30.tar.xz",
+        "sha256": "216ab305737a5d392107112d618a755dc5df42058226f1670e9db90e77d777d9",
+        "role": "source",
+        "provides": [
+          "php",
+          "php-cli",
+          "php-fpm",
+          "phpize"
+        ],
+        "format": "tar.xz"
+      }
+    ]
+  },
+  {
+    "version": "8.1.34",
+    "date": "2025-12-18",
+    "components": [
+      {
+        "name": "php-source",
+        "version": "8.1.34",
+        "filename": "php-8.1.34.tar.xz",
+        "url": "https://www.php.net/distributions/php-8.1.34.tar.xz",
+        "sha256": "ffa9e0982e82eeaea848f57687b425ed173aa278fe563001310ae2638db5c251",
+        "role": "source",
+        "provides": [
+          "php",
+          "php-cli",
+          "php-fpm",
+          "phpize"
+        ],
+        "format": "tar.xz"
+      }
+    ]
+  },
+  {
+    "version": "8.2.34",
+    "date": "2026-09-24",
+    "components": [
+      {
+        "name": "php-source",
+        "version": "8.2.34",
+        "filename": "php-8.2.34.tar.xz",
+        "url": "https://www.php.net/distributions/php-8.2.34.tar.xz",
+        "sha256": "5351330c54de240f54f7527c26ef292e239749e6fe11db0330acb5317e02bb39",
+        "role": "source",
+        "provides": [
+          "php",
+          "php-cli",
+          "php-fpm",
+          "phpize"
+        ],
+        "format": "tar.xz"
+      }
+    ]
+  },
+  {
+    "version": "8.3.35",
+    "date": "2026-09-24",
+    "components": [
+      {
+        "name": "php-source",
+        "version": "8.3.35",
+        "filename": "php-8.3.35.tar.xz",
+        "url": "https://www.php.net/distributions/php-8.3.35.tar.xz",
+        "sha256": "ff4630fbbbd94359134b7d3c223db59329905bdc4f5a9ef93d257b48e358619a",
+        "role": "source",
+        "provides": [
+          "php",
+          "php-cli",
+          "php-fpm",
+          "phpize"
+        ],
+        "format": "tar.xz"
+      }
+    ]
+  },
+  {
+    "version": "8.4.26",
+    "date": "2026-09-24",
+    "components": [
+      {
+        "name": "php-source",
+        "version": "8.4.26",
+        "filename": "php-8.4.26.tar.xz",
+        "url": "https://www.php.net/distributions/php-8.4.26.tar.xz",
+        "sha256": "32a2de53862ad44ed4a5005244ce4f1b50c271e74dced215449a4443b40569f1",
+        "role": "source",
+        "provides": [
+          "php",
+          "php-cli",
+          "php-fpm",
+          "phpize"
+        ],
+        "format": "tar.xz"
+      }
+    ]
+  },
+  {
+    "version": "8.5.11",
+    "date": "2026-09-24",
+    "components": [
+      {
+        "name": "php-source",
+        "version": "8.5.11",
+        "filename": "php-8.5.11.tar.xz",
+        "url": "https://www.php.net/distributions/php-8.5.11.tar.xz",
+        "sha256": "d9be75c08e8c316f4c8f4194d8fbe1750a15f6a6d9d4e3fe72082abeeb800360",
+        "role": "source",
+        "provides": [
+          "php",
+          "php-cli",
+          "php-fpm",
+          "phpize"
+        ],
+        "format": "tar.xz"
+      }
+    ]
+  }
+]

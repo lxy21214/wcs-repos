@@ -1,0 +1,236 @@
+[
+  {
+    "version": "0.1.45",
+    "components": [
+      {
+        "name": "uv",
+        "version": "0.1.45",
+        "filename": "uv-0.1.45-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/e4/40/3c4d9862bebcd3c7d54c06e3bdff0a2ab503d2df98d8c15b337c7b864f0a/uv-0.1.45-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "sha256": "cd7f2f64fdded940342dc37234c11ae3508222c3c9b6b0eac5879dcd586010fa",
+        "role": "package-manager",
+        "provides": [
+          "uv"
+        ],
+        "format": "whl",
+        "source": "pypi"
+      }
+    ]
+  },
+  {
+    "version": "0.2.37",
+    "components": [
+      {
+        "name": "uv",
+        "version": "0.2.37",
+        "filename": "uv-0.2.37-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/7b/eb/423fd9cb8c2ff601e0c4cdff3cd5b94f6f34f9140ec10f5edfd694e9265e/uv-0.2.37-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "sha256": "a6d6748da729a7c11aed34733bc9884ae6a9adc289dc09f33da36dd2a1f14bcb",
+        "role": "package-manager",
+        "provides": [
+          "uv"
+        ],
+        "format": "whl",
+        "source": "pypi"
+      }
+    ]
+  },
+  {
+    "version": "0.3.5",
+    "components": [
+      {
+        "name": "uv",
+        "version": "0.3.5",
+        "filename": "uv-0.3.5-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/07/fe/20aadf565a5cef95d8382c7b4e79423d2903cddf1c42fc01706bd389f8ec/uv-0.3.5-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "sha256": "cdab52c5c1ed97805f2b4d7648615e10a823f8c5497207d5f14f5b6062c4798b",
+        "role": "package-manager",
+        "provides": [
+          "uv"
+        ],
+        "format": "whl",
+        "source": "pypi"
+      }
+    ]
+  },
+  {
+    "version": "0.4.30",
+    "components": [
+      {
+        "name": "uv",
+        "version": "0.4.30",
+        "filename": "uv-0.4.30-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/3b/36/592477b62bbd1d652ec2d45a5a6daba7ed5a6ce008690eb0749e18733adb/uv-0.4.30-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "sha256": "63196143f45018364c450ba94279a5bcff8562c14ba63deb41a92ed30baa6e22",
+        "role": "package-manager",
+        "provides": [
+          "uv"
+        ],
+        "format": "whl",
+        "source": "pypi"
+      }
+    ]
+  },
+  {
+    "version": "0.5.31",
+    "components": [
+      {
+        "name": "uv",
+        "version": "0.5.31",
+        "filename": "uv-0.5.31-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/ce/2e/0c3ac2f5be92492cbe735de7f66a83b2d3e22bd59554deaa0106562cba45/uv-0.5.31-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "sha256": "d07e9db12a55005a28bb49ecfa444a0221702158fc021f79e26d8e174f1ebdf9",
+        "role": "package-manager",
+        "provides": [
+          "uv"
+        ],
+        "format": "whl",
+        "source": "pypi"
+      }
+    ]
+  },
+  {
+    "version": "0.6.17",
+    "components": [
+      {
+        "name": "uv",
+        "version": "0.6.17",
+        "filename": "uv-0.6.17-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/d4/6b/1bea7cff3104890b33c73155c811e48129eed8272e6f4ba848a116994fa4/uv-0.6.17-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "sha256": "aa416f287c81bfffd21e82765944035e6c3f4566615bd4fc03db3a704be8e4d5",
+        "role": "package-manager",
+        "provides": [
+          "uv"
+        ],
+        "format": "whl",
+        "source": "pypi"
+      }
+    ]
+  },
+  {
+    "version": "0.7.22",
+    "components": [
+      {
+        "name": "uv",
+        "version": "0.7.22",
+        "filename": "uv-0.7.22-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/88/12/11dfd036bf776a775f6972a3f9ccfa95b4817ec7a21a427f233a5d1d904b/uv-0.7.22-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "sha256": "560b00403b9cf82e2ae7d6d680c6d54c3f5c709b3b6357e092059c5d4b682baa",
+        "role": "package-manager",
+        "provides": [
+          "uv"
+        ],
+        "format": "whl",
+        "source": "pypi"
+      }
+    ]
+  },
+  {
+    "version": "0.8.24",
+    "components": [
+      {
+        "name": "uv",
+        "version": "0.8.24",
+        "filename": "uv-0.8.24-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/15/91/0cb0e416a8b7cfdc7f15e39d700dc06a9689073206fee4c7bf8f1fd68331/uv-0.8.24-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "sha256": "0a75005a146e81ed1bbb0b6e55db18c8ad1e7d714392cdb94a63fa7a3259ad4f",
+        "role": "package-manager",
+        "provides": [
+          "uv"
+        ],
+        "format": "whl",
+        "source": "pypi"
+      }
+    ]
+  },
+  {
+    "version": "0.9.30",
+    "components": [
+      {
+        "name": "uv",
+        "version": "0.9.30",
+        "filename": "uv-0.9.30-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/6a/57/12a67c569e69b71508ad669adad266221f0b1d374be88eaf60109f551354/uv-0.9.30-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "sha256": "4366dd740ac9ad3ec50a58868a955b032493bb7d7e6ed368289e6ced8bbc70f3",
+        "role": "package-manager",
+        "provides": [
+          "uv"
+        ],
+        "format": "whl",
+        "source": "pypi"
+      }
+    ]
+  },
+  {
+    "version": "0.10.12",
+    "components": [
+      {
+        "name": "uv",
+        "version": "0.10.12",
+        "filename": "uv-0.10.12-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/8d/42/139e68d7d92bb90a33b5e269dbe474acb00b6c9797541032f859c5bf4c4d/uv-0.10.12-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "sha256": "101481a1f48db6becf219914a591a588c0b3bfd05bef90768a5d04972bd6455e",
+        "role": "package-manager",
+        "provides": [
+          "uv"
+        ],
+        "format": "whl",
+        "source": "pypi"
+      }
+    ]
+  },
+  {
+    "version": "0.11.33",
+    "components": [
+      {
+        "name": "uv",
+        "version": "0.11.33",
+        "filename": "uv-0.11.33-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/a3/cb/f0ccaba1bf9b0f778dc883e56f3bfb315e3d974ba36fb7432a067b459528/uv-0.11.33-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "sha256": "9542178978b0b6f16a7ae99e55aca039f493a1edb373a15d7993eab80a28615a",
+        "role": "package-manager",
+        "provides": [
+          "uv"
+        ],
+        "format": "whl",
+        "source": "pypi"
+      }
+    ]
+  },
+  {
+    "version": "0.12.24",
+    "components": [
+      {
+        "name": "uv",
+        "version": "0.12.24",
+        "filename": "uv-0.12.24-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/89/f8/2ef356d9d066686c98854be9e3e41d0ba9d69f7b2495512b6394115fa40c/uv-0.12.24-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "sha256": "e47005957dca320272ad68960b591b854b6bf0c3288368efb096d9ccd06b8404",
+        "role": "package-manager",
+        "provides": [
+          "uv"
+        ],
+        "format": "whl",
+        "source": "pypi"
+      }
+    ]
+  },
+  {
+    "version": "0.13.1",
+    "components": [
+      {
+        "name": "uv",
+        "version": "0.13.1",
+        "filename": "uv-0.13.1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/14/0b/6602a613533602e7a083e908c4375f9b0e78a94ba2e21c29b21c41a0a611/uv-0.13.1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "sha256": "696dcf6d807d85da978f4db8472da81dccc1254b18b52cbd1367c4d923c421e0",
+        "role": "package-manager",
+        "provides": [
+          "uv"
+        ],
+        "format": "whl",
+        "source": "pypi"
+      }
+    ]
+  }
+]

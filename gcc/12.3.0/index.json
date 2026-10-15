@@ -1,0 +1,31 @@
+{
+  "components": [
+    {
+      "filename": "gcc-12.3.0.tar.xz",
+      "format": "tar.xz",
+      "name": "gcc-source",
+      "provides": [
+        "gcc",
+        "g++",
+        "gccgo",
+        "gfortran"
+      ],
+      "role": "source",
+      "sha256": "949a5d4f99e786421a93b532b22ffab5578de7321369975b91aec97adfda8c3b",
+      "upstream": "GNU FTP",
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-12.3.0/gcc-12.3.0.tar.xz",
+      "version": "12.3.0"
+    }
+  ],
+  "install": "source build",
+  "language": "c/c++",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "release_date": "2023-05-08",
+  "schema_version": 3,
+  "software": "gcc",
+  "version": "12.3.0"
+}

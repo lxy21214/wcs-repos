@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "bundled_components": {
+        "npm": "8.11.0"
+      },
+      "filename": "node-v16.15.1-linux-x64.tar.xz",
+      "format": "xz",
+      "name": "nodejs",
+      "provides": [
+        "node",
+        "corepack"
+      ],
+      "role": "runtime",
+      "sha256": "b749f7a76e56dfd6dfb8a910b8a2a871159661557680aa95acf13c9514422c12",
+      "url": "https://nodejs.org/dist/v16.15.1/node-v16.15.1-linux-x64.tar.xz",
+      "version": "16.15.1"
+    },
+    {
+      "filename": "npm-8.11.0.tgz",
+      "format": "tgz",
+      "name": "npm",
+      "paired_with": {
+        "nodejs": "16.15.1"
+      },
+      "provides": [
+        "npm",
+        "npx"
+      ],
+      "role": "package-manager",
+      "sha256": "f2495337c9483d435457249dfdb40e62c70e7e0fa3f6dfcf21b45f3235a2fcde",
+      "url": "https://registry.npmjs.org/npm/-/npm-8.11.0.tgz",
+      "version": "8.11.0"
+    }
+  ],
+  "language": "javascript",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "nodejs",
+  "version": "16.15.1"
+}

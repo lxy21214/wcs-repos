@@ -1,0 +1,100 @@
+[
+  {
+    "version": "2.7.18",
+    "date": "2020-04-20",
+    "source_url": "https://www.python.org/ftp/python/2.7.18/Python-2.7.18.tgz",
+    "source_sha256": "38c84292658ed4456157195f1c9bcbe1",
+    "source_filename": "Python-2.7.18.tgz"
+  },
+  {
+    "version": "3.3.7",
+    "date": "2017-09-19",
+    "source_url": "https://www.python.org/ftp/python/3.3.7/Python-3.3.7.tgz",
+    "source_sha256": "c54f93b012320871e6cbd0902ecb5769",
+    "source_filename": "Python-3.3.7.tgz"
+  },
+  {
+    "version": "3.4.10",
+    "date": "2019-03-18",
+    "source_url": "https://www.python.org/ftp/python/3.4.10/Python-3.4.10.tgz",
+    "source_sha256": "2452f4d809ae9d88011ccafe12c4b6d3",
+    "source_filename": "Python-3.4.10.tgz"
+  },
+  {
+    "version": "3.5.10",
+    "date": "2020-09-05",
+    "source_url": "https://www.python.org/ftp/python/3.5.10/Python-3.5.10.tgz",
+    "source_sha256": "01a2d18075243bef5ef3363f62bf3247",
+    "source_filename": "Python-3.5.10.tgz"
+  },
+  {
+    "version": "3.6.15",
+    "date": "2021-09-04",
+    "source_url": "https://www.python.org/ftp/python/3.6.15/Python-3.6.15.tgz",
+    "source_sha256": "f9e6f91c754a604f4fc6f6c7683723fb",
+    "source_filename": "Python-3.6.15.tgz"
+  },
+  {
+    "version": "3.7.17",
+    "date": "2023-06-06",
+    "source_url": "https://www.python.org/ftp/python/3.7.17/Python-3.7.17.tgz",
+    "source_sha256": "19726591b0fb1a9658de68955fa8392a",
+    "source_filename": "Python-3.7.17.tgz"
+  },
+  {
+    "version": "3.8.20",
+    "date": "2024-09-06",
+    "source_url": "https://www.python.org/ftp/python/3.8.20/Python-3.8.20.tgz",
+    "source_sha256": "7e0ff9088be5a3c2fd9b7d8b4b632b5e",
+    "source_filename": "Python-3.8.20.tgz"
+  },
+  {
+    "version": "3.9.25",
+    "date": "2025-10-31",
+    "source_url": "https://www.python.org/ftp/python/3.9.25/Python-3.9.25.tgz",
+    "source_sha256": "530c60aacc0d4ad8a683b6c5f0691fc8",
+    "source_filename": "Python-3.9.25.tgz"
+  },
+  {
+    "version": "3.10.22",
+    "date": "2026-10-01",
+    "source_url": "https://www.python.org/ftp/python/3.10.22/Python-3.10.22.tgz",
+    "source_sha256": "9448b34d16f8e3db0964ac3ed9fb283197747543c2c021f283ffd2c8b7287357",
+    "source_filename": "Python-3.10.22.tgz"
+  },
+  {
+    "version": "3.11.17",
+    "date": "2026-10-01",
+    "source_url": "https://www.python.org/ftp/python/3.11.17/Python-3.11.17.tgz",
+    "source_sha256": "53cdee63ac4bf12387b7b33a53d3b1f8f4941cad73807a7b4fe91bb001ef004a",
+    "source_filename": "Python-3.11.17.tgz"
+  },
+  {
+    "version": "3.12.15",
+    "date": "2026-09-30",
+    "source_url": "https://www.python.org/ftp/python/3.12.15/Python-3.12.15.tgz",
+    "source_sha256": "de1a241a519e0a3374fea98988d0b52c886743f9d953f23be8269cc7b59c5fab",
+    "source_filename": "Python-3.12.15.tgz"
+  },
+  {
+    "version": "3.13.16",
+    "date": "2026-09-30",
+    "source_url": "https://www.python.org/ftp/python/3.13.16/Python-3.13.16.tgz",
+    "source_sha256": "cfac63bddf956deafb1172ca131ae5dcaafd6f95056086e233fca205593ed427",
+    "source_filename": "Python-3.13.16.tgz"
+  },
+  {
+    "version": "3.14.8",
+    "date": "2026-09-30",
+    "source_url": "https://www.python.org/ftp/python/3.14.8/Python-3.14.8.tgz",
+    "source_sha256": "a65b20a728f169f4e66ae143f40b1bd3d33c38d770251663f627c9767b79b210",
+    "source_filename": "Python-3.14.8.tgz"
+  },
+  {
+    "version": "3.15.0",
+    "date": "2026-10-09",
+    "source_url": "https://www.python.org/ftp/python/3.15.0/Python-3.15.0.tgz",
+    "source_sha256": "438596cac081036d3c1d532ab7e7335eeb35567bc961749a0d5797176db0db68",
+    "source_filename": "Python-3.15.0.tgz"
+  }
+]

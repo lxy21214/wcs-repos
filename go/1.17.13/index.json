@@ -1,0 +1,26 @@
+{
+  "components": [
+    {
+      "filename": "go1.17.13.linux-amd64.tar.gz",
+      "format": "tar.gz",
+      "name": "go",
+      "provides": [
+        "go",
+        "gofmt"
+      ],
+      "role": "sdk",
+      "sha256": "4cdd2bc664724dc7db94ad51b503512c5ae7220951cac568120f64f8e94399fc",
+      "url": "https://dl.google.com/go/go1.17.13.linux-amd64.tar.gz",
+      "version": "1.17.13"
+    }
+  ],
+  "language": "go",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "go",
+  "version": "1.17.13"
+}

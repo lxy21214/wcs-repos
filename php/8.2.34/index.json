@@ -1,0 +1,29 @@
+{
+  "components": [
+    {
+      "filename": "php-8.2.34.tar.xz",
+      "format": "tar.xz",
+      "name": "php-source",
+      "provides": [
+        "php",
+        "php-cli",
+        "php-fpm",
+        "phpize"
+      ],
+      "role": "source",
+      "sha256": "5351330c54de240f54f7527c26ef292e239749e6fe11db0330acb5317e02bb39",
+      "url": "https://www.php.net/distributions/php-8.2.34.tar.xz",
+      "version": "8.2.34"
+    }
+  ],
+  "install": "source build",
+  "language": "php",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "php",
+  "version": "8.2.34"
+}

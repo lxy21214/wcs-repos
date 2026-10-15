@@ -1,0 +1,26 @@
+{
+  "components": [
+    {
+      "filename": "uv-0.4.30-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "format": "whl",
+      "name": "uv",
+      "provides": [
+        "uv"
+      ],
+      "role": "package-manager",
+      "sha256": "63196143f45018364c450ba94279a5bcff8562c14ba63deb41a92ed30baa6e22",
+      "source": "pypi",
+      "url": "https://files.pythonhosted.org/packages/3b/36/592477b62bbd1d652ec2d45a5a6daba7ed5a6ce008690eb0749e18733adb/uv-0.4.30-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "version": "0.4.30"
+    }
+  ],
+  "language": "-",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "uv",
+  "version": "0.4.30"
+}

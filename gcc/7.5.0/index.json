@@ -1,0 +1,31 @@
+{
+  "components": [
+    {
+      "filename": "gcc-7.5.0.tar.xz",
+      "format": "tar.xz",
+      "name": "gcc-source",
+      "provides": [
+        "gcc",
+        "g++",
+        "gccgo",
+        "gfortran"
+      ],
+      "role": "source",
+      "sha256": "b81946e7f01f90528a1f7352ab08cc602b9ccc05d4e44da4bd501c5a189ee661",
+      "upstream": "GNU FTP",
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-7.5.0/gcc-7.5.0.tar.xz",
+      "version": "7.5.0"
+    }
+  ],
+  "install": "source build",
+  "language": "c/c++",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "release_date": "2019-11-14",
+  "schema_version": 3,
+  "software": "gcc",
+  "version": "7.5.0"
+}

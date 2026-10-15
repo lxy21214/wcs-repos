@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "bundled_components": {
+        "npm": "9.2.0"
+      },
+      "filename": "node-v19.3.0-linux-x64.tar.xz",
+      "format": "xz",
+      "name": "nodejs",
+      "provides": [
+        "node",
+        "corepack"
+      ],
+      "role": "runtime",
+      "sha256": "de94d6db26edee92a03512552c8be9db38a7bfefa7b3228328afdfb5094e3a76",
+      "url": "https://nodejs.org/dist/v19.3.0/node-v19.3.0-linux-x64.tar.xz",
+      "version": "19.3.0"
+    },
+    {
+      "filename": "npm-9.2.0.tgz",
+      "format": "tgz",
+      "name": "npm",
+      "paired_with": {
+        "nodejs": "19.3.0"
+      },
+      "provides": [
+        "npm",
+        "npx"
+      ],
+      "role": "package-manager",
+      "sha256": "e2574f7da94665dd2f717f8e67bd1874134c4b301f8781dabceecdfc3d685071",
+      "url": "https://registry.npmjs.org/npm/-/npm-9.2.0.tgz",
+      "version": "9.2.0"
+    }
+  ],
+  "language": "javascript",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "nodejs",
+  "version": "19.3.0"
+}

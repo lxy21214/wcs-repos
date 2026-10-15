@@ -1,0 +1,31 @@
+{
+  "components": [
+    {
+      "filename": "gcc-13.5.0.tar.xz",
+      "format": "tar.xz",
+      "name": "gcc-source",
+      "provides": [
+        "gcc",
+        "g++",
+        "gccgo",
+        "gfortran"
+      ],
+      "role": "source",
+      "sha256": "ec3df0015ed01411f91f9a9cd5b4da3070eb1222b02fadf4133c30c090399855",
+      "upstream": "GNU FTP",
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-13.5.0/gcc-13.5.0.tar.xz",
+      "version": "13.5.0"
+    }
+  ],
+  "install": "source build",
+  "language": "c/c++",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "release_date": "2026-09-11",
+  "schema_version": 3,
+  "software": "gcc",
+  "version": "13.5.0"
+}

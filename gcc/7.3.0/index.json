@@ -1,0 +1,31 @@
+{
+  "components": [
+    {
+      "filename": "gcc-7.3.0.tar.xz",
+      "format": "tar.xz",
+      "name": "gcc-source",
+      "provides": [
+        "gcc",
+        "g++",
+        "gccgo",
+        "gfortran"
+      ],
+      "role": "source",
+      "sha256": "832ca6ae04636adbb430e865a1451adf6979ab44ca1c8374f61fba65645ce15c",
+      "upstream": "GNU FTP",
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-7.3.0/gcc-7.3.0.tar.xz",
+      "version": "7.3.0"
+    }
+  ],
+  "install": "source build",
+  "language": "c/c++",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "release_date": "2018-01-25",
+  "schema_version": 3,
+  "software": "gcc",
+  "version": "7.3.0"
+}

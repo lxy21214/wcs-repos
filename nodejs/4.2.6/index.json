@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "bundled_components": {
+        "npm": "2.14.12"
+      },
+      "filename": "node-v4.2.6-linux-x64.tar.xz",
+      "format": "xz",
+      "name": "nodejs",
+      "provides": [
+        "node",
+        "corepack"
+      ],
+      "role": "runtime",
+      "sha256": "919498f2eb855ef0468b428b97d9d3f604d0f83417502d65b98c136786eb94d5",
+      "url": "https://nodejs.org/dist/v4.2.6/node-v4.2.6-linux-x64.tar.xz",
+      "version": "4.2.6"
+    },
+    {
+      "filename": "npm-2.14.12.tgz",
+      "format": "tgz",
+      "name": "npm",
+      "paired_with": {
+        "nodejs": "4.2.6"
+      },
+      "provides": [
+        "npm",
+        "npx"
+      ],
+      "role": "package-manager",
+      "sha256": "6f3eba27b68c2ea9aa44e239d57f40edb18cc2e31bb6db08d181f726a79abd49",
+      "url": "https://registry.npmjs.org/npm/-/npm-2.14.12.tgz",
+      "version": "2.14.12"
+    }
+  ],
+  "language": "javascript",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "nodejs",
+  "version": "4.2.6"
+}

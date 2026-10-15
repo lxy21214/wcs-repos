@@ -1,0 +1,400 @@
+[
+ {
+  "version": "8u504",
+  "source": "temurin",
+  "components": [
+   {
+    "name": "jdk",
+    "version": "8u504",
+    "filename": "OpenJDK8U-jdk_x64_linux_hotspot_8u504b01.tar.gz",
+    "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u504-b01/OpenJDK8U-jdk_x64_linux_hotspot_8u504b01.tar.gz",
+    "sha256": "9c70e102f527ac674ac2fe9c7d47b9a04e2d19842ba5ab8e9b33f368bbadfaea",
+    "role": "runtime",
+    "provides": [
+     "java",
+     "javac"
+    ],
+    "format": "tar.gz",
+    "upstream": "Eclipse Temurin (Adoptium)"
+   }
+  ]
+ },
+ {
+  "version": "9.0.4",
+  "source": "openjdk(jdk.java.net)",
+  "components": [
+   {
+    "name": "jdk",
+    "version": "9.0.4",
+    "filename": "openjdk-9.0.4_linux-x64_bin.tar.gz",
+    "url": "https://download.java.net/java/GA/jdk9/9.0.4/binaries/openjdk-9.0.4_linux-x64_bin.tar.gz",
+    "sha256": "39362fb9bfb341fcc802e55e8ea59f4664ca58fd821ce956d48e1aa4fb3d2dec",
+    "role": "runtime",
+    "provides": [
+     "java",
+     "javac"
+    ],
+    "format": "tar.gz",
+    "upstream": "OpenJDK GA build (jdk.java.net)"
+   }
+  ]
+ },
+ {
+  "version": "10.0.2",
+  "source": "openjdk(jdk.java.net)",
+  "components": [
+   {
+    "name": "jdk",
+    "version": "10.0.2",
+    "filename": "openjdk-10.0.2_linux-x64_bin.tar.gz",
+    "url": "https://download.java.net/java/GA/jdk10/10.0.2/19aef61b38124481863b1413dce1855f/13/openjdk-10.0.2_linux-x64_bin.tar.gz",
+    "sha256": "f3b26abc9990a0b8929781310e14a339a7542adfd6596afb842fa0dd7e3848b2",
+    "role": "runtime",
+    "provides": [
+     "java",
+     "javac"
+    ],
+    "format": "tar.gz",
+    "upstream": "OpenJDK GA build (jdk.java.net)"
+   }
+  ]
+ },
+ {
+  "version": "11.0.32.1",
+  "source": "temurin",
+  "components": [
+   {
+    "name": "jdk",
+    "version": "11.0.32.1",
+    "filename": "OpenJDK11U-jdk_x64_linux_hotspot_11.0.32.1_1.tar.gz",
+    "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jdk_x64_linux_hotspot_11.0.32.1_1.tar.gz",
+    "sha256": "5c3f68887c325d36d852ba534303e1f5f1f5cae7d6cc1e951d73e0d8e98a058d",
+    "role": "runtime",
+    "provides": [
+     "java",
+     "javac"
+    ],
+    "format": "tar.gz",
+    "upstream": "Eclipse Temurin (Adoptium)"
+   }
+  ]
+ },
+ {
+  "version": "12.0.2",
+  "source": "openjdk(jdk.java.net)",
+  "components": [
+   {
+    "name": "jdk",
+    "version": "12.0.2",
+    "filename": "openjdk-12.0.2_linux-x64_bin.tar.gz",
+    "url": "https://download.java.net/java/GA/jdk12.0.2/e482c34c86bd4bf8b56c0b35558996b9/10/GPL/openjdk-12.0.2_linux-x64_bin.tar.gz",
+    "sha256": "75998a6ebf477467aa5fb68227a67733f0e77e01f737d4dfbc01e617e59106ed",
+    "role": "runtime",
+    "provides": [
+     "java",
+     "javac"
+    ],
+    "format": "tar.gz",
+    "upstream": "OpenJDK GA build (jdk.java.net)"
+   }
+  ]
+ },
+ {
+  "version": "13.0.2",
+  "source": "openjdk(jdk.java.net)",
+  "components": [
+   {
+    "name": "jdk",
+    "version": "13.0.2",
+    "filename": "openjdk-13.0.2_linux-x64_bin.tar.gz",
+    "url": "https://download.java.net/java/GA/jdk13.0.2/d4173c853231432d94f001e99d882ca7/8/GPL/openjdk-13.0.2_linux-x64_bin.tar.gz",
+    "sha256": "acc7a6aabced44e62ec3b83e3b5959df2b1aa6b3d610d58ee45f0c21a7821a71",
+    "role": "runtime",
+    "provides": [
+     "java",
+     "javac"
+    ],
+    "format": "tar.gz",
+    "upstream": "OpenJDK GA build (jdk.java.net)"
+   }
+  ]
+ },
+ {
+  "version": "14.0.2",
+  "source": "openjdk(jdk.java.net)",
+  "components": [
+   {
+    "name": "jdk",
+    "version": "14.0.2",
+    "filename": "openjdk-14.0.2_linux-x64_bin.tar.gz",
+    "url": "https://download.java.net/java/GA/jdk14.0.2/205943a0976c4ed48cb16f1043c5c647/12/GPL/openjdk-14.0.2_linux-x64_bin.tar.gz",
+    "sha256": "91310200f072045dc6cef2c8c23e7e6387b37c46e9de49623ce0fa461a24623d",
+    "role": "runtime",
+    "provides": [
+     "java",
+     "javac"
+    ],
+    "format": "tar.gz",
+    "upstream": "OpenJDK GA build (jdk.java.net)"
+   }
+  ]
+ },
+ {
+  "version": "15.0.2",
+  "source": "openjdk(jdk.java.net)",
+  "components": [
+   {
+    "name": "jdk",
+    "version": "15.0.2",
+    "filename": "openjdk-15.0.2_linux-x64_bin.tar.gz",
+    "url": "https://download.java.net/java/GA/jdk15.0.2/0d1cfde4252546c6931946de8db48ee2/7/GPL/openjdk-15.0.2_linux-x64_bin.tar.gz",
+    "sha256": "91ac6fc353b6bf39d995572b700e37a20e119a87034eeb939a6f24356fbcd207",
+    "role": "runtime",
+    "provides": [
+     "java",
+     "javac"
+    ],
+    "format": "tar.gz",
+    "upstream": "OpenJDK GA build (jdk.java.net)"
+   }
+  ]
+ },
+ {
+  "version": "16.0.2",
+  "source": "openjdk(jdk.java.net)",
+  "components": [
+   {
+    "name": "jdk",
+    "version": "16.0.2",
+    "filename": "openjdk-16.0.2_linux-x64_bin.tar.gz",
+    "url": "https://download.java.net/java/GA/jdk16.0.2/d4a915d82b4c4fbb9bde534da945d746/7/GPL/openjdk-16.0.2_linux-x64_bin.tar.gz",
+    "sha256": "6c714ded7d881ca54970ec949e283f43d673a142fda1de79b646ddd619da9c0c",
+    "role": "runtime",
+    "provides": [
+     "java",
+     "javac"
+    ],
+    "format": "tar.gz",
+    "upstream": "OpenJDK GA build (jdk.java.net)"
+   }
+  ]
+ },
+ {
+  "version": "17.0.20.1",
+  "source": "temurin",
+  "components": [
+   {
+    "name": "jdk",
+    "version": "17.0.20.1",
+    "filename": "OpenJDK17U-jdk_x64_linux_hotspot_17.0.20.1_1.tar.gz",
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_x64_linux_hotspot_17.0.20.1_1.tar.gz",
+    "sha256": "3808d1d15e3ec6bd5b84057fb5d84c33d8a1536a258146bcea2e603fc726e08e",
+    "role": "runtime",
+    "provides": [
+     "java",
+     "javac"
+    ],
+    "format": "tar.gz",
+    "upstream": "Eclipse Temurin (Adoptium)"
+   }
+  ]
+ },
+ {
+  "version": "18.0.2.1",
+  "source": "oracle",
+  "components": [
+   {
+    "name": "jdk",
+    "version": "18.0.2.1",
+    "filename": "jdk-18.0.2.1_linux-x64_bin.tar.gz",
+    "url": "https://download.oracle.com/java/18/archive/jdk-18.0.2.1_linux-x64_bin.tar.gz",
+    "sha256": "cd905013facbb5c2b5354165cc372e327259de4991c28f31c7d4231dbf638934",
+    "role": "sdk",
+    "provides": [
+     "java",
+     "javac",
+     "jar"
+    ],
+    "vendor": "oracle",
+    "distribution": "oracle-jdk",
+    "format": "tar.gz"
+   }
+  ]
+ },
+ {
+  "version": "19.0.2",
+  "source": "oracle",
+  "components": [
+   {
+    "name": "jdk",
+    "version": "19.0.2",
+    "filename": "jdk-19.0.2_linux-x64_bin.tar.gz",
+    "url": "https://download.oracle.com/java/19/archive/jdk-19.0.2_linux-x64_bin.tar.gz",
+    "sha256": "59f26ace2727d0e9b24fc09d5a48393c9dbaffe04c932a02938e8d6d582058c6",
+    "role": "sdk",
+    "provides": [
+     "java",
+     "javac",
+     "jar"
+    ],
+    "vendor": "oracle",
+    "distribution": "oracle-jdk",
+    "format": "tar.gz"
+   }
+  ]
+ },
+ {
+  "version": "20.0.2",
+  "source": "oracle",
+  "components": [
+   {
+    "name": "jdk",
+    "version": "20.0.2",
+    "filename": "jdk-20.0.2_linux-x64_bin.tar.gz",
+    "url": "https://download.oracle.com/java/20/archive/jdk-20.0.2_linux-x64_bin.tar.gz",
+    "sha256": "499b59be8e3613c223e76f101598d7c28dc04b8e154d860edf2ed05980c67526",
+    "role": "sdk",
+    "provides": [
+     "java",
+     "javac",
+     "jar"
+    ],
+    "vendor": "oracle",
+    "distribution": "oracle-jdk",
+    "format": "tar.gz"
+   }
+  ]
+ },
+ {
+  "version": "21.0.12",
+  "source": "oracle",
+  "components": [
+   {
+    "name": "jdk",
+    "version": "21.0.12",
+    "filename": "jdk-21.0.12_linux-x64_bin.tar.gz",
+    "url": "https://download.oracle.com/java/21/archive/jdk-21.0.12_linux-x64_bin.tar.gz",
+    "sha256": "33cc8a4ba4163b003bbf3516824861ee49e7295e6a2879ec91316c2aead78b80",
+    "role": "sdk",
+    "provides": [
+     "java",
+     "javac",
+     "jar"
+    ],
+    "vendor": "oracle",
+    "distribution": "oracle-jdk",
+    "format": "tar.gz"
+   }
+  ]
+ },
+ {
+  "version": "22.0.2",
+  "source": "oracle",
+  "components": [
+   {
+    "name": "jdk",
+    "version": "22.0.2",
+    "filename": "jdk-22.0.2_linux-x64_bin.tar.gz",
+    "url": "https://download.oracle.com/java/22/archive/jdk-22.0.2_linux-x64_bin.tar.gz",
+    "sha256": "cbc13aaa2618659f44cb261f820f179832d611f0df35dd30a78d7dea6d717858",
+    "role": "sdk",
+    "provides": [
+     "java",
+     "javac",
+     "jar"
+    ],
+    "vendor": "oracle",
+    "distribution": "oracle-jdk",
+    "format": "tar.gz"
+   }
+  ]
+ },
+ {
+  "version": "23.0.2",
+  "source": "oracle",
+  "components": [
+   {
+    "name": "jdk",
+    "version": "23.0.2",
+    "filename": "jdk-23.0.2_linux-x64_bin.tar.gz",
+    "url": "https://download.oracle.com/java/23/archive/jdk-23.0.2_linux-x64_bin.tar.gz",
+    "sha256": "12d7553d06b5cacf88b26cad4a8ba83cabe79646f1defb1b7fd029f3356d0922",
+    "role": "sdk",
+    "provides": [
+     "java",
+     "javac",
+     "jar"
+    ],
+    "vendor": "oracle",
+    "distribution": "oracle-jdk",
+    "format": "tar.gz"
+   }
+  ]
+ },
+ {
+  "version": "24.0.2",
+  "source": "oracle",
+  "components": [
+   {
+    "name": "jdk",
+    "version": "24.0.2",
+    "filename": "jdk-24.0.2_linux-x64_bin.tar.gz",
+    "url": "https://download.oracle.com/java/24/archive/jdk-24.0.2_linux-x64_bin.tar.gz",
+    "sha256": "5f9f7c4ca2a6cef0f18a27465e1be81bddd8653218f450a329a2afc9bf2a1dd8",
+    "role": "sdk",
+    "provides": [
+     "java",
+     "javac",
+     "jar"
+    ],
+    "vendor": "oracle",
+    "distribution": "oracle-jdk",
+    "format": "tar.gz"
+   }
+  ]
+ },
+ {
+  "version": "25.0.4",
+  "source": "oracle",
+  "components": [
+   {
+    "name": "jdk",
+    "version": "25.0.4",
+    "filename": "jdk-25.0.4_linux-x64_bin.tar.gz",
+    "url": "https://download.oracle.com/java/25/archive/jdk-25.0.4_linux-x64_bin.tar.gz",
+    "sha256": "0d3e87de2516557a170e2df4f6a4872b1749ea3174dd7c9e555cb5170e618301",
+    "role": "sdk",
+    "provides": [
+     "java",
+     "javac",
+     "jar"
+    ],
+    "vendor": "oracle",
+    "distribution": "oracle-jdk",
+    "format": "tar.gz"
+   }
+  ]
+ },
+ {
+  "version": "26.0.2.1",
+  "source": "oracle",
+  "components": [
+   {
+    "name": "jdk",
+    "version": "26.0.2.1",
+    "filename": "jdk-26.0.2.1_linux-x64_bin.tar.gz",
+    "url": "https://download.oracle.com/java/26/archive/jdk-26.0.2.1_linux-x64_bin.tar.gz",
+    "sha256": "30410726d866e16154571879785a44736009bc34e409cb66473b6e797d883df7",
+    "role": "sdk",
+    "provides": [
+     "java",
+     "javac",
+     "jar"
+    ],
+    "vendor": "oracle",
+    "distribution": "oracle-jdk",
+    "format": "tar.gz"
+   }
+  ]
+ }
+]

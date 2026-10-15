@@ -1,0 +1,236 @@
+[
+  {
+    "version": "2.1.10",
+    "date": "2016-04-01",
+    "components": [
+      {
+        "name": "ruby",
+        "version": "2.1.10",
+        "filename": "ruby-2.1.10.tar.gz",
+        "url": "https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.10.tar.gz",
+        "sha256": "fb2e454d7a5e5a39eb54db0ec666f53eeb6edc593d1d2b970ae4d150b831dd20",
+        "role": "runtime",
+        "provides": [
+          "ruby"
+        ],
+        "format": "tar.gz"
+      }
+    ]
+  },
+  {
+    "version": "2.2.10",
+    "date": "2018-03-28",
+    "components": [
+      {
+        "name": "ruby",
+        "version": "2.2.10",
+        "filename": "ruby-2.2.10.tar.gz",
+        "url": "https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.10.tar.gz",
+        "sha256": "cd51019eb9d9c786d6cb178c37f6812d8a41d6914a1edaf0050c051c75d7c358",
+        "role": "runtime",
+        "provides": [
+          "ruby"
+        ],
+        "format": "tar.gz"
+      }
+    ]
+  },
+  {
+    "version": "2.3.8",
+    "date": "2018-10-17",
+    "components": [
+      {
+        "name": "ruby",
+        "version": "2.3.8",
+        "filename": "ruby-2.3.8.tar.gz",
+        "url": "https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.8.tar.gz",
+        "sha256": "b5016d61440e939045d4e22979e04708ed6c8e1c52e7edb2553cf40b73c59abf",
+        "role": "runtime",
+        "provides": [
+          "ruby"
+        ],
+        "format": "tar.gz"
+      }
+    ]
+  },
+  {
+    "version": "2.4.10",
+    "date": "2020-03-31",
+    "components": [
+      {
+        "name": "ruby",
+        "version": "2.4.10",
+        "filename": "ruby-2.4.10.tar.gz",
+        "url": "https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.10.tar.gz",
+        "sha256": "93d06711795bfb76dbe7e765e82cdff3ddf9d82eff2a1f24dead9bb506eaf2d0",
+        "role": "runtime",
+        "provides": [
+          "ruby"
+        ],
+        "format": "tar.gz"
+      }
+    ]
+  },
+  {
+    "version": "2.5.9",
+    "date": "2021-04-05",
+    "components": [
+      {
+        "name": "ruby",
+        "version": "2.5.9",
+        "filename": "ruby-2.5.9.tar.gz",
+        "url": "https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.9.tar.gz",
+        "sha256": "f5894e05f532b748c3347894a5efa42066fd11cc8d261d4d9788ff71da00be68",
+        "role": "runtime",
+        "provides": [
+          "ruby"
+        ],
+        "format": "tar.gz"
+      }
+    ]
+  },
+  {
+    "version": "2.6.10",
+    "date": "2022-04-12",
+    "components": [
+      {
+        "name": "ruby",
+        "version": "2.6.10",
+        "filename": "ruby-2.6.10.tar.gz",
+        "url": "https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.10.tar.gz",
+        "sha256": "0dc609f263d49c4176d5725deefc337273676395985b5e017789373e8cadf16e",
+        "role": "runtime",
+        "provides": [
+          "ruby"
+        ],
+        "format": "tar.gz"
+      }
+    ]
+  },
+  {
+    "version": "2.7.8",
+    "date": "2023-03-30",
+    "components": [
+      {
+        "name": "ruby",
+        "version": "2.7.8",
+        "filename": "ruby-2.7.8.tar.gz",
+        "url": "https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.8.tar.gz",
+        "sha256": "c2dab63cbc8f2a05526108ad419efa63a67ed4074dbbcf9fc2b1ca664cb45ba0",
+        "role": "runtime",
+        "provides": [
+          "ruby"
+        ],
+        "format": "tar.gz"
+      }
+    ]
+  },
+  {
+    "version": "3.0.7",
+    "date": "2024-04-23",
+    "components": [
+      {
+        "name": "ruby",
+        "version": "3.0.7",
+        "filename": "ruby-3.0.7.tar.gz",
+        "url": "https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.7.tar.gz",
+        "sha256": "2a3411977f2850431136b0fab8ad53af09fb74df2ee2f4fb7f11b378fe034388",
+        "role": "runtime",
+        "provides": [
+          "ruby"
+        ],
+        "format": "tar.gz"
+      }
+    ]
+  },
+  {
+    "version": "3.1.7",
+    "date": "2025-03-26",
+    "components": [
+      {
+        "name": "ruby",
+        "version": "3.1.7",
+        "filename": "ruby-3.1.7.tar.gz",
+        "url": "https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.7.tar.gz",
+        "sha256": "0556acd69f141ddace03fa5dd8d76e7ea0d8f5232edf012429579bcdaab30e7b",
+        "role": "runtime",
+        "provides": [
+          "ruby"
+        ],
+        "format": "tar.gz"
+      }
+    ]
+  },
+  {
+    "version": "3.2.11",
+    "date": "2026-03-27",
+    "components": [
+      {
+        "name": "ruby",
+        "version": "3.2.11",
+        "filename": "ruby-3.2.11.tar.gz",
+        "url": "https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.11.tar.gz",
+        "sha256": "b3eeabd6636f334531db3ffdc3229eb05e524740e6c84fdc043720573cf2f8b2",
+        "role": "runtime",
+        "provides": [
+          "ruby"
+        ],
+        "format": "tar.gz"
+      }
+    ]
+  },
+  {
+    "version": "3.3.12",
+    "date": "2026-07-16",
+    "components": [
+      {
+        "name": "ruby",
+        "version": "3.3.12",
+        "filename": "ruby-3.3.12.tar.gz",
+        "url": "https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.12.tar.gz",
+        "sha256": "b06d63beae271933033e27f0a389bc582a009e7845357d44365c39de525a051b",
+        "role": "runtime",
+        "provides": [
+          "ruby"
+        ],
+        "format": "tar.gz"
+      }
+    ]
+  },
+  {
+    "version": "3.4.11",
+    "date": "2026-09-23",
+    "components": [
+      {
+        "name": "ruby",
+        "version": "3.4.11",
+        "filename": "ruby-3.4.11.tar.gz",
+        "url": "https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.11.tar.gz",
+        "sha256": "5c22be44524312b3d433d68739bcc530633b1da5ef8ba0afa0a37680da17d3de",
+        "role": "runtime",
+        "provides": [
+          "ruby"
+        ],
+        "format": "tar.gz"
+      }
+    ]
+  },
+  {
+    "version": "4.0.7",
+    "date": "2026-09-15",
+    "components": [
+      {
+        "name": "ruby",
+        "version": "4.0.7",
+        "filename": "ruby-4.0.7.tar.gz",
+        "url": "https://cache.ruby-lang.org/pub/ruby/4.0/ruby-4.0.7.tar.gz",
+        "sha256": "911ace20f90d068ca0e4dda6d0e4f0f81e52e52f2dd4f4004c721e253412e82d",
+        "role": "runtime",
+        "provides": [
+          "ruby"
+        ],
+        "format": "tar.gz"
+      }
+    ]
+  }
+]

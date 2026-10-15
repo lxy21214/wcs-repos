@@ -1,0 +1,31 @@
+{
+  "components": [
+    {
+      "filename": "gcc-15.3.0.tar.xz",
+      "format": "tar.xz",
+      "name": "gcc-source",
+      "provides": [
+        "gcc",
+        "g++",
+        "gccgo",
+        "gfortran"
+      ],
+      "role": "source",
+      "sha256": "fa59c1beef8995f27c4d71c1df227587189315d3e6faff1bb4306e61b0c530eb",
+      "upstream": "GNU FTP",
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-15.3.0/gcc-15.3.0.tar.xz",
+      "version": "15.3.0"
+    }
+  ],
+  "install": "source build",
+  "language": "c/c++",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "release_date": "2026-06-12",
+  "schema_version": 3,
+  "software": "gcc",
+  "version": "15.3.0"
+}

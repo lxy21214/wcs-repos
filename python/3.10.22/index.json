@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "filename": "Python-3.10.22.tgz",
+      "format": "tar.gz",
+      "name": "python-source",
+      "provides": [
+        "python"
+      ],
+      "role": "source",
+      "sha256": "9448b34d16f8e3db0964ac3ed9fb283197747543c2c021f283ffd2c8b7287357",
+      "upstream": "python.org",
+      "url": "https://www.python.org/ftp/python/3.10.22/Python-3.10.22.tgz",
+      "version": "3.10.22"
+    },
+    {
+      "filename": "uv-0.11.33-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "format": "whl",
+      "name": "uv",
+      "paired_with": {
+        "python": "3.10.22"
+      },
+      "provides": [
+        "uv"
+      ],
+      "role": "package-manager",
+      "sha256": "9542178978b0b6f16a7ae99e55aca039f493a1edb373a15d7993eab80a28615a",
+      "source": "pypi",
+      "url": "https://files.pythonhosted.org/packages/a3/cb/f0ccaba1bf9b0f778dc883e56f3bfb315e3d974ba36fb7432a067b459528/uv-0.11.33-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "version": "0.11.33"
+    }
+  ],
+  "language": "python",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "release_date": "2026-10-01",
+  "schema_version": 3,
+  "software": "python",
+  "version": "3.10.22"
+}

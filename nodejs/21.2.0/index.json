@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "bundled_components": {
+        "npm": "10.2.3"
+      },
+      "filename": "node-v21.2.0-linux-x64.tar.xz",
+      "format": "xz",
+      "name": "nodejs",
+      "provides": [
+        "node",
+        "corepack"
+      ],
+      "role": "runtime",
+      "sha256": "828da17da3278ff7a0c89b176f1945259808939ce6b713254dc9e9a67a51e307",
+      "url": "https://nodejs.org/dist/v21.2.0/node-v21.2.0-linux-x64.tar.xz",
+      "version": "21.2.0"
+    },
+    {
+      "filename": "npm-10.2.3.tgz",
+      "format": "tgz",
+      "name": "npm",
+      "paired_with": {
+        "nodejs": "21.2.0"
+      },
+      "provides": [
+        "npm",
+        "npx"
+      ],
+      "role": "package-manager",
+      "sha256": "9316bf3da0a0ec6b81eb83784539098a0e802246d8269c45797a87a6a82a62bf",
+      "url": "https://registry.npmjs.org/npm/-/npm-10.2.3.tgz",
+      "version": "10.2.3"
+    }
+  ],
+  "language": "javascript",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "nodejs",
+  "version": "21.2.0"
+}

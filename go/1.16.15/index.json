@@ -1,0 +1,26 @@
+{
+  "components": [
+    {
+      "filename": "go1.16.15.linux-amd64.tar.gz",
+      "format": "tar.gz",
+      "name": "go",
+      "provides": [
+        "go",
+        "gofmt"
+      ],
+      "role": "sdk",
+      "sha256": "77c782a633186d78c384f972fb113a43c24be0234c42fef22c2d8c4c4c8e7475",
+      "url": "https://dl.google.com/go/go1.16.15.linux-amd64.tar.gz",
+      "version": "1.16.15"
+    }
+  ],
+  "language": "go",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "go",
+  "version": "1.16.15"
+}

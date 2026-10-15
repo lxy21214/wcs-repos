@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "bundled_components": {
+        "npm": "7.4.3"
+      },
+      "filename": "node-v15.7.0-linux-x64.tar.xz",
+      "format": "xz",
+      "name": "nodejs",
+      "provides": [
+        "node",
+        "corepack"
+      ],
+      "role": "runtime",
+      "sha256": "8bcbc3a47ea8563519ab8c447412e941d160a79531c959b5f9c2306611a95223",
+      "url": "https://nodejs.org/dist/v15.7.0/node-v15.7.0-linux-x64.tar.xz",
+      "version": "15.7.0"
+    },
+    {
+      "filename": "npm-7.4.3.tgz",
+      "format": "tgz",
+      "name": "npm",
+      "paired_with": {
+        "nodejs": "15.7.0"
+      },
+      "provides": [
+        "npm",
+        "npx"
+      ],
+      "role": "package-manager",
+      "sha256": "44991c711b6b63e059738eb50e43cf9639db4f659b2b0deb00ba08979a93c314",
+      "url": "https://registry.npmjs.org/npm/-/npm-7.4.3.tgz",
+      "version": "7.4.3"
+    }
+  ],
+  "language": "javascript",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "nodejs",
+  "version": "15.7.0"
+}

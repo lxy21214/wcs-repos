@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "filename": "rustup-init",
+      "format": "binary",
+      "name": "rustup-init",
+      "provides": [
+        "rustup"
+      ],
+      "role": "installer",
+      "sha256": "dda7234360b7f578ca8b0ddcb80145646fa61a67c1720a5abc7051b35c9fcb71",
+      "url": "https://static.rust-lang.org/rustup/dist/x86_64-unknown-linux-gnu/rustup-init",
+      "version": "latest"
+    },
+    {
+      "filename": "rust-1.41.1-x86_64-unknown-linux-gnu.tar.gz",
+      "format": "tar.gz",
+      "name": "rust",
+      "provides": [
+        "rustc",
+        "cargo",
+        "rust-std"
+      ],
+      "role": "toolchain",
+      "sha256": "a6d5a3b3f574aafc8f787fea37aad9fb8a7946b383ae5348146927192ff0bef0",
+      "target": "x86_64-unknown-linux-gnu",
+      "url": "https://static.rust-lang.org/dist/rust-1.41.1-x86_64-unknown-linux-gnu.tar.gz",
+      "version": "1.41.1"
+    },
+    {
+      "filename": "rustc-1.41.1-x86_64-unknown-linux-gnu.tar.gz",
+      "format": "tar.gz",
+      "name": "rustc",
+      "provides": [
+        "rustc"
+      ],
+      "role": "compiler",
+      "sha256": "6276dc3280186f45beba5abf92d1197be04d473f291a4456776d376db1acc480",
+      "target": "x86_64-unknown-linux-gnu",
+      "url": "https://static.rust-lang.org/dist/rustc-1.41.1-x86_64-unknown-linux-gnu.tar.gz",
+      "version": "1.41.1"
+    },
+    {
+      "filename": "rust-std-1.41.1-x86_64-unknown-linux-gnu.tar.gz",
+      "format": "tar.gz",
+      "name": "rust-std",
+      "provides": [
+        "rust-std"
+      ],
+      "role": "standard-library",
+      "sha256": "b0ec3593f9ee5ff5b9938075371d280832062249b551d0fc585ae4452c576f08",
+      "target": "x86_64-unknown-linux-gnu",
+      "url": "https://static.rust-lang.org/dist/rust-std-1.41.1-x86_64-unknown-linux-gnu.tar.gz",
+      "version": "1.41.1"
+    },
+    {
+      "filename": "rustc-1.41.1-src.tar.gz",
+      "format": "tar.gz",
+      "name": "rust-source",
+      "provides": [
+        "rust-src"
+      ],
+      "role": "source",
+      "sha256": "38c93d016e6d3e083aa15e8f65511d3b4983072c0218a529f5ee94dd1de84573",
+      "target": "x86_64-unknown-linux-gnu",
+      "url": "https://static.rust-lang.org/dist/rustc-1.41.1-src.tar.gz",
+      "version": "1.41.1"
+    }
+  ],
+  "language": "rust",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "rust",
+  "version": "1.41.1"
+}

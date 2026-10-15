@@ -1,0 +1,27 @@
+{
+  "components": [
+    {
+      "filename": "openjdk-10.0.2_linux-x64_bin.tar.gz",
+      "format": "tar.gz",
+      "name": "jdk",
+      "provides": [
+        "java",
+        "javac"
+      ],
+      "role": "runtime",
+      "sha256": "f3b26abc9990a0b8929781310e14a339a7542adfd6596afb842fa0dd7e3848b2",
+      "upstream": "OpenJDK GA build (jdk.java.net)",
+      "url": "https://download.java.net/java/GA/jdk10/10.0.2/19aef61b38124481863b1413dce1855f/13/openjdk-10.0.2_linux-x64_bin.tar.gz",
+      "version": "10.0.2"
+    }
+  ],
+  "language": "java",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "java",
+  "version": "10.0.2"
+}

@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "bundled_components": {
+        "npm": "8.3.1"
+      },
+      "filename": "node-v17.4.0-linux-x64.tar.xz",
+      "format": "xz",
+      "name": "nodejs",
+      "provides": [
+        "node",
+        "corepack"
+      ],
+      "role": "runtime",
+      "sha256": "59fa3173da3b0f4ace81166a0facd7f1d7014e076842a85a9b356e0293b91988",
+      "url": "https://nodejs.org/dist/v17.4.0/node-v17.4.0-linux-x64.tar.xz",
+      "version": "17.4.0"
+    },
+    {
+      "filename": "npm-8.3.1.tgz",
+      "format": "tgz",
+      "name": "npm",
+      "paired_with": {
+        "nodejs": "17.4.0"
+      },
+      "provides": [
+        "npm",
+        "npx"
+      ],
+      "role": "package-manager",
+      "sha256": "314a6f525c60c81bb1d87d1028731777642836457e5eaed76b96e3d9e38f2f16",
+      "url": "https://registry.npmjs.org/npm/-/npm-8.3.1.tgz",
+      "version": "8.3.1"
+    }
+  ],
+  "language": "javascript",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "nodejs",
+  "version": "17.4.0"
+}

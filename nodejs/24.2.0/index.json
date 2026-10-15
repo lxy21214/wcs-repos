@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "bundled_components": {
+        "npm": "11.3.0"
+      },
+      "filename": "node-v24.2.0-linux-x64.tar.xz",
+      "format": "xz",
+      "name": "nodejs",
+      "provides": [
+        "node",
+        "corepack"
+      ],
+      "role": "runtime",
+      "sha256": "91a0794f4dbc94bc4a9296139ed9101de21234982bae2b325e37ebd3462273e5",
+      "url": "https://nodejs.org/dist/v24.2.0/node-v24.2.0-linux-x64.tar.xz",
+      "version": "24.2.0"
+    },
+    {
+      "filename": "npm-11.3.0.tgz",
+      "format": "tgz",
+      "name": "npm",
+      "paired_with": {
+        "nodejs": "24.2.0"
+      },
+      "provides": [
+        "npm",
+        "npx"
+      ],
+      "role": "package-manager",
+      "sha256": "1c2dd63f96799ed4bf92b7806d8509302a0f8da68ca452aae27f24388bb41df4",
+      "url": "https://registry.npmjs.org/npm/-/npm-11.3.0.tgz",
+      "version": "11.3.0"
+    }
+  ],
+  "language": "javascript",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "nodejs",
+  "version": "24.2.0"
+}

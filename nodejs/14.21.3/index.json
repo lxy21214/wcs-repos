@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "bundled_components": {
+        "npm": "6.14.18"
+      },
+      "filename": "node-v14.21.3-linux-x64.tar.xz",
+      "format": "xz",
+      "name": "nodejs",
+      "provides": [
+        "node",
+        "corepack"
+      ],
+      "role": "runtime",
+      "sha256": "05c08a107c50572ab39ce9e8663a2a2d696b5d262d5bd6f98d84b997ce932d9a",
+      "url": "https://nodejs.org/dist/v14.21.3/node-v14.21.3-linux-x64.tar.xz",
+      "version": "14.21.3"
+    },
+    {
+      "filename": "npm-6.14.18.tgz",
+      "format": "tgz",
+      "name": "npm",
+      "paired_with": {
+        "nodejs": "14.21.3"
+      },
+      "provides": [
+        "npm",
+        "npx"
+      ],
+      "role": "package-manager",
+      "sha256": "c9b15f277e2a0b1b57e05bad04504296a27024555d56c2aa967f862e957ad2ed",
+      "url": "https://registry.npmjs.org/npm/-/npm-6.14.18.tgz",
+      "version": "6.14.18"
+    }
+  ],
+  "language": "javascript",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "nodejs",
+  "version": "14.21.3"
+}

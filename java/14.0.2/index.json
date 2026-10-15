@@ -1,0 +1,27 @@
+{
+  "components": [
+    {
+      "filename": "openjdk-14.0.2_linux-x64_bin.tar.gz",
+      "format": "tar.gz",
+      "name": "jdk",
+      "provides": [
+        "java",
+        "javac"
+      ],
+      "role": "runtime",
+      "sha256": "91310200f072045dc6cef2c8c23e7e6387b37c46e9de49623ce0fa461a24623d",
+      "upstream": "OpenJDK GA build (jdk.java.net)",
+      "url": "https://download.java.net/java/GA/jdk14.0.2/205943a0976c4ed48cb16f1043c5c647/12/GPL/openjdk-14.0.2_linux-x64_bin.tar.gz",
+      "version": "14.0.2"
+    }
+  ],
+  "language": "java",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "java",
+  "version": "14.0.2"
+}

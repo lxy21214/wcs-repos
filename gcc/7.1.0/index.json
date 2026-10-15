@@ -1,0 +1,31 @@
+{
+  "components": [
+    {
+      "filename": "gcc-7.1.0.tar.bz2",
+      "format": "tar.bz2",
+      "name": "gcc-source",
+      "provides": [
+        "gcc",
+        "g++",
+        "gccgo",
+        "gfortran"
+      ],
+      "role": "source",
+      "sha256": "8a8136c235f64c6fef69cac0d73a46a1a09bb250776a050aec8f9fc880bebc17",
+      "upstream": "GNU FTP",
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-7.1.0/gcc-7.1.0.tar.bz2",
+      "version": "7.1.0"
+    }
+  ],
+  "install": "source build",
+  "language": "c/c++",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "release_date": "2017-05-02",
+  "schema_version": 3,
+  "software": "gcc",
+  "version": "7.1.0"
+}

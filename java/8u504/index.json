@@ -1,0 +1,27 @@
+{
+  "components": [
+    {
+      "filename": "OpenJDK8U-jdk_x64_linux_hotspot_8u504b01.tar.gz",
+      "format": "tar.gz",
+      "name": "jdk",
+      "provides": [
+        "java",
+        "javac"
+      ],
+      "role": "runtime",
+      "sha256": "9c70e102f527ac674ac2fe9c7d47b9a04e2d19842ba5ab8e9b33f368bbadfaea",
+      "upstream": "Eclipse Temurin (Adoptium)",
+      "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u504-b01/OpenJDK8U-jdk_x64_linux_hotspot_8u504b01.tar.gz",
+      "version": "8u504"
+    }
+  ],
+  "language": "java",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "java",
+  "version": "8u504"
+}

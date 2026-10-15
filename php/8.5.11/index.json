@@ -1,0 +1,29 @@
+{
+  "components": [
+    {
+      "filename": "php-8.5.11.tar.xz",
+      "format": "tar.xz",
+      "name": "php-source",
+      "provides": [
+        "php",
+        "php-cli",
+        "php-fpm",
+        "phpize"
+      ],
+      "role": "source",
+      "sha256": "d9be75c08e8c316f4c8f4194d8fbe1750a15f6a6d9d4e3fe72082abeeb800360",
+      "url": "https://www.php.net/distributions/php-8.5.11.tar.xz",
+      "version": "8.5.11"
+    }
+  ],
+  "install": "source build",
+  "language": "php",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "php",
+  "version": "8.5.11"
+}

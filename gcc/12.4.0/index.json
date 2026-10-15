@@ -1,0 +1,31 @@
+{
+  "components": [
+    {
+      "filename": "gcc-12.4.0.tar.xz",
+      "format": "tar.xz",
+      "name": "gcc-source",
+      "provides": [
+        "gcc",
+        "g++",
+        "gccgo",
+        "gfortran"
+      ],
+      "role": "source",
+      "sha256": "704f652604ccbccb14bdabf3478c9511c89788b12cb3bbffded37341916a9175",
+      "upstream": "GNU FTP",
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-12.4.0/gcc-12.4.0.tar.xz",
+      "version": "12.4.0"
+    }
+  ],
+  "install": "source build",
+  "language": "c/c++",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "release_date": "2024-06-24",
+  "schema_version": 3,
+  "software": "gcc",
+  "version": "12.4.0"
+}

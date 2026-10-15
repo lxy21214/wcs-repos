@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "filename": "Python-3.15.0.tgz",
+      "format": "tar.gz",
+      "name": "python-source",
+      "provides": [
+        "python"
+      ],
+      "role": "source",
+      "sha256": "438596cac081036d3c1d532ab7e7335eeb35567bc961749a0d5797176db0db68",
+      "upstream": "python.org",
+      "url": "https://www.python.org/ftp/python/3.15.0/Python-3.15.0.tgz",
+      "version": "3.15.0"
+    },
+    {
+      "abi": "gnu",
+      "filename": "cpython-3.15.0+20261013-x86_64_v3-unknown-linux-gnu-freethreaded+pgo+lto-full.tar.zst",
+      "format": "tar.zst",
+      "freethreaded": true,
+      "name": "python",
+      "provides": [
+        "python"
+      ],
+      "role": "runtime",
+      "sha256": "b3c8da97a03e063fb8b5d9737fcfc5a6872e8cafcfb65988c62de027c10ed696",
+      "upstream": "python-build-standalone",
+      "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261013/cpython-3.15.0+20261013-x86_64_v3-unknown-linux-gnu-freethreaded+pgo+lto-full.tar.zst",
+      "version": "3.15.0"
+    },
+    {
+      "filename": "uv-0.12.24-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "format": "whl",
+      "name": "uv",
+      "paired_with": {
+        "python": "3.15.0"
+      },
+      "provides": [
+        "uv"
+      ],
+      "role": "package-manager",
+      "sha256": "e47005957dca320272ad68960b591b854b6bf0c3288368efb096d9ccd06b8404",
+      "source": "pypi",
+      "url": "https://files.pythonhosted.org/packages/89/f8/2ef356d9d066686c98854be9e3e41d0ba9d69f7b2495512b6394115fa40c/uv-0.12.24-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "version": "0.12.24"
+    }
+  ],
+  "language": "python",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "release_date": "2026-10-09",
+  "schema_version": 3,
+  "software": "python",
+  "variant": "freethreaded",
+  "version": "3.15.0-freethreaded"
+}

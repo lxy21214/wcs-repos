@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "bundled_components": {
+        "npm": "3.3.12"
+      },
+      "filename": "node-v5.5.0-linux-x64.tar.xz",
+      "format": "xz",
+      "name": "nodejs",
+      "provides": [
+        "node",
+        "corepack"
+      ],
+      "role": "runtime",
+      "sha256": "33b4d062f5ba5c8db86119b693273f0ca764fe0d076558bb8e645c37ea0b22fc",
+      "url": "https://nodejs.org/dist/v5.5.0/node-v5.5.0-linux-x64.tar.xz",
+      "version": "5.5.0"
+    },
+    {
+      "filename": "npm-3.3.12.tgz",
+      "format": "tgz",
+      "name": "npm",
+      "paired_with": {
+        "nodejs": "5.5.0"
+      },
+      "provides": [
+        "npm",
+        "npx"
+      ],
+      "role": "package-manager",
+      "sha256": "09475d7096731d93c0aacd7dfe58794d67c52ee6562675aee6c1f734ddba8158",
+      "url": "https://registry.npmjs.org/npm/-/npm-3.3.12.tgz",
+      "version": "3.3.12"
+    }
+  ],
+  "language": "javascript",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "nodejs",
+  "version": "5.5.0"
+}

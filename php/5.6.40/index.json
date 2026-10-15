@@ -1,0 +1,29 @@
+{
+  "components": [
+    {
+      "filename": "php-5.6.40.tar.xz",
+      "format": "tar.xz",
+      "name": "php-source",
+      "provides": [
+        "php",
+        "php-cli",
+        "php-fpm",
+        "phpize"
+      ],
+      "role": "source",
+      "sha256": "1369a51eee3995d7fbd1c5342e5cc917760e276d561595b6052b21ace2656d1c",
+      "url": "https://www.php.net/distributions/php-5.6.40.tar.xz",
+      "version": "5.6.40"
+    }
+  ],
+  "install": "source build",
+  "language": "php",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "php",
+  "version": "5.6.40"
+}

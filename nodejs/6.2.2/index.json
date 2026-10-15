@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "bundled_components": {
+        "npm": "3.9.5"
+      },
+      "filename": "node-v6.2.2-linux-x64.tar.xz",
+      "format": "xz",
+      "name": "nodejs",
+      "provides": [
+        "node",
+        "corepack"
+      ],
+      "role": "runtime",
+      "sha256": "dd8231b89c57c51b298563fd5e9c594d3ced9cb5f3153dcc05d55444b5d0dc4b",
+      "url": "https://nodejs.org/dist/v6.2.2/node-v6.2.2-linux-x64.tar.xz",
+      "version": "6.2.2"
+    },
+    {
+      "filename": "npm-3.9.5.tgz",
+      "format": "tgz",
+      "name": "npm",
+      "paired_with": {
+        "nodejs": "6.2.2"
+      },
+      "provides": [
+        "npm",
+        "npx"
+      ],
+      "role": "package-manager",
+      "sha256": "d09a3adbb82b81dcd6123b771b9f05845c82b63a27dbe15a5f517a31d779a1b6",
+      "url": "https://registry.npmjs.org/npm/-/npm-3.9.5.tgz",
+      "version": "3.9.5"
+    }
+  ],
+  "language": "javascript",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "nodejs",
+  "version": "6.2.2"
+}

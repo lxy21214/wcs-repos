@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "bundled_components": {
+        "npm": "6.4.1"
+      },
+      "filename": "node-v10.11.0-linux-x64.tar.xz",
+      "format": "xz",
+      "name": "nodejs",
+      "provides": [
+        "node",
+        "corepack"
+      ],
+      "role": "runtime",
+      "sha256": "c2eab149e7f0712a6a3eb672a76d657b049a3b3ae0c2edc2e0571df5049fe82c",
+      "url": "https://nodejs.org/dist/v10.11.0/node-v10.11.0-linux-x64.tar.xz",
+      "version": "10.11.0"
+    },
+    {
+      "filename": "npm-6.4.1.tgz",
+      "format": "tgz",
+      "name": "npm",
+      "paired_with": {
+        "nodejs": "10.11.0"
+      },
+      "provides": [
+        "npm",
+        "npx"
+      ],
+      "role": "package-manager",
+      "sha256": "a48e0b4471d72936afb598ebde0e07076598ac8647c2e9ebe891db5d6fbf2952",
+      "url": "https://registry.npmjs.org/npm/-/npm-6.4.1.tgz",
+      "version": "6.4.1"
+    }
+  ],
+  "language": "javascript",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "nodejs",
+  "version": "10.11.0"
+}

@@ -1,0 +1,29 @@
+{
+  "components": [
+    {
+      "distribution": "oracle-jdk",
+      "filename": "jdk-26.0.2.1_linux-x64_bin.tar.gz",
+      "format": "tar.gz",
+      "name": "jdk",
+      "provides": [
+        "java",
+        "javac",
+        "jar"
+      ],
+      "role": "sdk",
+      "sha256": "30410726d866e16154571879785a44736009bc34e409cb66473b6e797d883df7",
+      "url": "https://download.oracle.com/java/26/archive/jdk-26.0.2.1_linux-x64_bin.tar.gz",
+      "vendor": "oracle",
+      "version": "26.0.2.1"
+    }
+  ],
+  "language": "java",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "java",
+  "version": "26.0.2.1"
+}

@@ -1,0 +1,31 @@
+{
+  "components": [
+    {
+      "filename": "gcc-6.4.0.tar.xz",
+      "format": "tar.xz",
+      "name": "gcc-source",
+      "provides": [
+        "gcc",
+        "g++",
+        "gccgo",
+        "gfortran"
+      ],
+      "role": "source",
+      "sha256": "850bf21eafdfe5cd5f6827148184c08c4a0852a37ccf36ce69855334d2c914d4",
+      "upstream": "GNU FTP",
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-6.4.0/gcc-6.4.0.tar.xz",
+      "version": "6.4.0"
+    }
+  ],
+  "install": "source build",
+  "language": "c/c++",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "release_date": "2017-07-04",
+  "schema_version": 3,
+  "software": "gcc",
+  "version": "6.4.0"
+}

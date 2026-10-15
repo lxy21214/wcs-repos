@@ -1,0 +1,29 @@
+{
+  "components": [
+    {
+      "filename": "php-7.4.33.tar.xz",
+      "format": "tar.xz",
+      "name": "php-source",
+      "provides": [
+        "php",
+        "php-cli",
+        "php-fpm",
+        "phpize"
+      ],
+      "role": "source",
+      "sha256": "924846abf93bc613815c55dd3f5809377813ac62a9ec4eb3778675b82a27b927",
+      "url": "https://www.php.net/distributions/php-7.4.33.tar.xz",
+      "version": "7.4.33"
+    }
+  ],
+  "install": "source build",
+  "language": "php",
+  "platform": {
+    "arch": "x86_64",
+    "libc": "gnu",
+    "os": "linux"
+  },
+  "schema_version": 3,
+  "software": "php",
+  "version": "7.4.33"
+}
