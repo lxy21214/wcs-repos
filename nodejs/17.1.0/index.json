@@ -1,45 +1,49 @@
 {
-  "components": [
-    {
-      "bundled_components": {
-        "npm": "8.1.2"
-      },
+  "schema_version": 4,
+  "software": "nodejs",
+  "version": "17.1.0",
+  "packages": {
+    "nodejs": {
       "filename": "node-v17.1.0-linux-x64.tar.xz",
-      "format": "xz",
-      "name": "nodejs",
-      "provides": [
-        "node",
-        "corepack"
-      ],
-      "role": "runtime",
       "sha256": "f0db80870a2a4da6361b2e7779d43d6b163f1a0cb80250f3a8471150a0e4dbe4",
       "url": "https://nodejs.org/dist/v17.1.0/node-v17.1.0-linux-x64.tar.xz",
-      "version": "17.1.0"
+      "version": "17.1.0",
+      "metadata": {
+        "bundled_components": {
+          "npm": "8.1.2"
+        },
+        "format": "xz",
+        "provides": [
+          "node",
+          "corepack"
+        ],
+        "role": "runtime"
+      }
     },
-    {
+    "npm": {
       "filename": "npm-8.1.2.tgz",
-      "format": "tgz",
-      "name": "npm",
-      "paired_with": {
-        "nodejs": "17.1.0"
-      },
-      "provides": [
-        "npm",
-        "npx"
-      ],
-      "role": "package-manager",
       "sha256": "fd2ae0667209ab7110804be2009cfe59997e90c9e18545189e61552861661cfe",
       "url": "https://registry.npmjs.org/npm/-/npm-8.1.2.tgz",
-      "version": "8.1.2"
+      "version": "8.1.2",
+      "metadata": {
+        "format": "tgz",
+        "paired_with": {
+          "nodejs": "17.1.0"
+        },
+        "provides": [
+          "npm",
+          "npx"
+        ],
+        "role": "package-manager"
+      }
     }
-  ],
-  "language": "javascript",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
   },
-  "schema_version": 3,
-  "software": "nodejs",
-  "version": "17.1.0"
+  "metadata": {
+    "language": "javascript",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    }
+  }
 }

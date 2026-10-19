@@ -1,45 +1,49 @@
 {
-  "components": [
-    {
-      "bundled_components": {
-        "npm": "9.5.0"
-      },
+  "schema_version": 4,
+  "software": "nodejs",
+  "version": "19.7.0",
+  "packages": {
+    "nodejs": {
       "filename": "node-v19.7.0-linux-x64.tar.xz",
-      "format": "xz",
-      "name": "nodejs",
-      "provides": [
-        "node",
-        "corepack"
-      ],
-      "role": "runtime",
       "sha256": "66d352bd96bc947828e29d3524716fdf0569f900eaa4bbc0517b618ffd597970",
       "url": "https://nodejs.org/dist/v19.7.0/node-v19.7.0-linux-x64.tar.xz",
-      "version": "19.7.0"
+      "version": "19.7.0",
+      "metadata": {
+        "bundled_components": {
+          "npm": "9.5.0"
+        },
+        "format": "xz",
+        "provides": [
+          "node",
+          "corepack"
+        ],
+        "role": "runtime"
+      }
     },
-    {
+    "npm": {
       "filename": "npm-9.5.0.tgz",
-      "format": "tgz",
-      "name": "npm",
-      "paired_with": {
-        "nodejs": "19.7.0"
-      },
-      "provides": [
-        "npm",
-        "npx"
-      ],
-      "role": "package-manager",
       "sha256": "c575d22ce4fe7436ce0c60a38dcf9d3a95bb60660eb2ccc751dace3ba7d0852a",
       "url": "https://registry.npmjs.org/npm/-/npm-9.5.0.tgz",
-      "version": "9.5.0"
+      "version": "9.5.0",
+      "metadata": {
+        "format": "tgz",
+        "paired_with": {
+          "nodejs": "19.7.0"
+        },
+        "provides": [
+          "npm",
+          "npx"
+        ],
+        "role": "package-manager"
+      }
     }
-  ],
-  "language": "javascript",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
   },
-  "schema_version": 3,
-  "software": "nodejs",
-  "version": "19.7.0"
+  "metadata": {
+    "language": "javascript",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    }
+  }
 }

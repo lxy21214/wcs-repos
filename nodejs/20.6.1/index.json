@@ -1,45 +1,49 @@
 {
-  "components": [
-    {
-      "bundled_components": {
-        "npm": "9.8.1"
-      },
+  "schema_version": 4,
+  "software": "nodejs",
+  "version": "20.6.1",
+  "packages": {
+    "nodejs": {
       "filename": "node-v20.6.1-linux-x64.tar.xz",
-      "format": "xz",
-      "name": "nodejs",
-      "provides": [
-        "node",
-        "corepack"
-      ],
-      "role": "runtime",
       "sha256": "591f9f274104f266a8cf085d2c7d5d2848ba73b98ae323d501db2d4c4b7026e5",
       "url": "https://nodejs.org/dist/v20.6.1/node-v20.6.1-linux-x64.tar.xz",
-      "version": "20.6.1"
+      "version": "20.6.1",
+      "metadata": {
+        "bundled_components": {
+          "npm": "9.8.1"
+        },
+        "format": "xz",
+        "provides": [
+          "node",
+          "corepack"
+        ],
+        "role": "runtime"
+      }
     },
-    {
+    "npm": {
       "filename": "npm-9.8.1.tgz",
-      "format": "tgz",
-      "name": "npm",
-      "paired_with": {
-        "nodejs": "20.6.1"
-      },
-      "provides": [
-        "npm",
-        "npx"
-      ],
-      "role": "package-manager",
       "sha256": "0f3e2ae9569291274114b765d8d79b644f63fa162497daee54446d9a600e0f79",
       "url": "https://registry.npmjs.org/npm/-/npm-9.8.1.tgz",
-      "version": "9.8.1"
+      "version": "9.8.1",
+      "metadata": {
+        "format": "tgz",
+        "paired_with": {
+          "nodejs": "20.6.1"
+        },
+        "provides": [
+          "npm",
+          "npx"
+        ],
+        "role": "package-manager"
+      }
     }
-  ],
-  "language": "javascript",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
   },
-  "schema_version": 3,
-  "software": "nodejs",
-  "version": "20.6.1"
+  "metadata": {
+    "language": "javascript",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    }
+  }
 }

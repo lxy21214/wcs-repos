@@ -1,79 +1,86 @@
 {
-  "components": [
-    {
+  "schema_version": 4,
+  "software": "rust",
+  "version": "1.30.1",
+  "packages": {
+    "rustup-init": {
       "filename": "rustup-init",
-      "format": "binary",
-      "name": "rustup-init",
-      "provides": [
-        "rustup"
-      ],
-      "role": "installer",
       "sha256": "dda7234360b7f578ca8b0ddcb80145646fa61a67c1720a5abc7051b35c9fcb71",
       "url": "https://static.rust-lang.org/rustup/dist/x86_64-unknown-linux-gnu/rustup-init",
-      "version": "latest"
+      "version": "latest",
+      "metadata": {
+        "format": "binary",
+        "provides": [
+          "rustup"
+        ],
+        "role": "installer"
+      }
     },
-    {
+    "rust": {
       "filename": "rust-1.30.1-x86_64-unknown-linux-gnu.tar.gz",
-      "format": "tar.gz",
-      "name": "rust",
-      "provides": [
-        "rustc",
-        "cargo",
-        "rust-std"
-      ],
-      "role": "toolchain",
       "sha256": "a01a493ed8946fc1c15f63e74fc53299b26ebf705938b4d04a388a746dfdbf9e",
-      "target": "x86_64-unknown-linux-gnu",
       "url": "https://static.rust-lang.org/dist/rust-1.30.1-x86_64-unknown-linux-gnu.tar.gz",
-      "version": "1.30.1"
+      "version": "1.30.1",
+      "metadata": {
+        "format": "tar.gz",
+        "provides": [
+          "rustc",
+          "cargo",
+          "rust-std"
+        ],
+        "role": "toolchain",
+        "target": "x86_64-unknown-linux-gnu"
+      }
     },
-    {
+    "rustc": {
       "filename": "rustc-1.30.1-x86_64-unknown-linux-gnu.tar.gz",
-      "format": "tar.gz",
-      "name": "rustc",
-      "provides": [
-        "rustc"
-      ],
-      "role": "compiler",
       "sha256": "d84de208499b59e4a3c074f9f3f2fcbb26fb20d6bfd19262e6d5f4181ddbe34d",
-      "target": "x86_64-unknown-linux-gnu",
       "url": "https://static.rust-lang.org/dist/rustc-1.30.1-x86_64-unknown-linux-gnu.tar.gz",
-      "version": "1.30.1"
+      "version": "1.30.1",
+      "metadata": {
+        "format": "tar.gz",
+        "provides": [
+          "rustc"
+        ],
+        "role": "compiler",
+        "target": "x86_64-unknown-linux-gnu"
+      }
     },
-    {
+    "rust-std": {
       "filename": "rust-std-1.30.1-x86_64-unknown-linux-gnu.tar.gz",
-      "format": "tar.gz",
-      "name": "rust-std",
-      "provides": [
-        "rust-std"
-      ],
-      "role": "standard-library",
       "sha256": "12c4b164efed44c28096fcd141225ee9bf74e7e3395bc6a60c11c9115a0536c6",
-      "target": "x86_64-unknown-linux-gnu",
       "url": "https://static.rust-lang.org/dist/rust-std-1.30.1-x86_64-unknown-linux-gnu.tar.gz",
-      "version": "1.30.1"
+      "version": "1.30.1",
+      "metadata": {
+        "format": "tar.gz",
+        "provides": [
+          "rust-std"
+        ],
+        "role": "standard-library",
+        "target": "x86_64-unknown-linux-gnu"
+      }
     },
-    {
+    "rust-source": {
       "filename": "rustc-1.30.1-src.tar.gz",
-      "format": "tar.gz",
-      "name": "rust-source",
-      "provides": [
-        "rust-src"
-      ],
-      "role": "source",
       "sha256": "36a38902dbd9a3e1240d46ab0f2ca40d2fd07c2ab6508ed7970c6c4c036b5b29",
-      "target": "x86_64-unknown-linux-gnu",
       "url": "https://static.rust-lang.org/dist/rustc-1.30.1-src.tar.gz",
-      "version": "1.30.1"
+      "version": "1.30.1",
+      "metadata": {
+        "format": "tar.gz",
+        "provides": [
+          "rust-src"
+        ],
+        "role": "source",
+        "target": "x86_64-unknown-linux-gnu"
+      }
     }
-  ],
-  "language": "rust",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
   },
-  "schema_version": 3,
-  "software": "rust",
-  "version": "1.30.1"
+  "metadata": {
+    "language": "rust",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    }
+  }
 }

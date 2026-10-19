@@ -1,29 +1,32 @@
 {
-  "components": [
-    {
+  "schema_version": 4,
+  "software": "php",
+  "version": "8.4.26",
+  "packages": {
+    "php-source": {
       "filename": "php-8.4.26.tar.xz",
-      "format": "tar.xz",
-      "name": "php-source",
-      "provides": [
-        "php",
-        "php-cli",
-        "php-fpm",
-        "phpize"
-      ],
-      "role": "source",
       "sha256": "32a2de53862ad44ed4a5005244ce4f1b50c271e74dced215449a4443b40569f1",
       "url": "https://www.php.net/distributions/php-8.4.26.tar.xz",
-      "version": "8.4.26"
+      "version": "8.4.26",
+      "metadata": {
+        "format": "tar.xz",
+        "provides": [
+          "php",
+          "php-cli",
+          "php-fpm",
+          "phpize"
+        ],
+        "role": "source"
+      }
     }
-  ],
-  "install": "source build",
-  "language": "php",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
   },
-  "schema_version": 3,
-  "software": "php",
-  "version": "8.4.26"
+  "metadata": {
+    "install": "source build",
+    "language": "php",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    }
+  }
 }

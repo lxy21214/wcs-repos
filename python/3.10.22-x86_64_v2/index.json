@@ -1,0 +1,36 @@
+{
+  "schema_version": 4,
+  "software": "python",
+  "version": "3.10.22-x86_64_v2",
+  "packages": {
+    "python": {
+      "filename": "cpython-3.10.22+20261009-x86_64_v2-unknown-linux-gnu-pgo+lto-full.tar.zst",
+      "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261009/cpython-3.10.22%2B20261009-x86_64_v2-unknown-linux-gnu-pgo%2Blto-full.tar.zst",
+      "sha256": "4b697f3e88ae432bcf2a94165d6e192f5f6cc9b572e189c07b95e5524150b9d6",
+      "version": "3.10.22",
+      "metadata": {
+        "format": "tar.zst",
+        "arch": "x86_64",
+        "cpu": "x86_64_v2",
+        "upstream": "python-build-standalone"
+      }
+    },
+    "uv": {
+      "filename": "uv-0.11.33-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "9542178978b0b6f16a7ae99e55aca039f493a1edb373a15d7993eab80a28615a",
+      "url": "https://files.pythonhosted.org/packages/a3/cb/f0ccaba1bf9b0f778dc883e56f3bfb315e3d974ba36fb7432a067b459528/uv-0.11.33-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "version": "0.11.33",
+      "metadata": {
+        "format": "whl",
+        "paired_with": {
+          "python": "3.10.22-x86_64_v2"
+        },
+        "provides": [
+          "uv"
+        ],
+        "role": "package-manager",
+        "source": "pypi"
+      }
+    }
+  }
+}

@@ -1,29 +1,32 @@
 {
-  "components": [
-    {
+  "schema_version": 4,
+  "software": "php",
+  "version": "8.0.30",
+  "packages": {
+    "php-source": {
       "filename": "php-8.0.30.tar.xz",
-      "format": "tar.xz",
-      "name": "php-source",
-      "provides": [
-        "php",
-        "php-cli",
-        "php-fpm",
-        "phpize"
-      ],
-      "role": "source",
       "sha256": "216ab305737a5d392107112d618a755dc5df42058226f1670e9db90e77d777d9",
       "url": "https://www.php.net/distributions/php-8.0.30.tar.xz",
-      "version": "8.0.30"
+      "version": "8.0.30",
+      "metadata": {
+        "format": "tar.xz",
+        "provides": [
+          "php",
+          "php-cli",
+          "php-fpm",
+          "phpize"
+        ],
+        "role": "source"
+      }
     }
-  ],
-  "install": "source build",
-  "language": "php",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
   },
-  "schema_version": 3,
-  "software": "php",
-  "version": "8.0.30"
+  "metadata": {
+    "install": "source build",
+    "language": "php",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    }
+  }
 }

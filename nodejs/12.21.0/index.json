@@ -1,45 +1,49 @@
 {
-  "components": [
-    {
-      "bundled_components": {
-        "npm": "6.14.11"
-      },
+  "schema_version": 4,
+  "software": "nodejs",
+  "version": "12.21.0",
+  "packages": {
+    "nodejs": {
       "filename": "node-v12.21.0-linux-x64.tar.xz",
-      "format": "xz",
-      "name": "nodejs",
-      "provides": [
-        "node",
-        "corepack"
-      ],
-      "role": "runtime",
       "sha256": "eb89c02153cfa25e40170e5e9b0ab43ad55d456af8b72ad2a8c2a42b7a647432",
       "url": "https://nodejs.org/dist/v12.21.0/node-v12.21.0-linux-x64.tar.xz",
-      "version": "12.21.0"
+      "version": "12.21.0",
+      "metadata": {
+        "bundled_components": {
+          "npm": "6.14.11"
+        },
+        "format": "xz",
+        "provides": [
+          "node",
+          "corepack"
+        ],
+        "role": "runtime"
+      }
     },
-    {
+    "npm": {
       "filename": "npm-6.14.11.tgz",
-      "format": "tgz",
-      "name": "npm",
-      "paired_with": {
-        "nodejs": "12.21.0"
-      },
-      "provides": [
-        "npm",
-        "npx"
-      ],
-      "role": "package-manager",
       "sha256": "13ed5653ba2ac2b7bb65852ea2e8b2e247738850f6c07c69c22394cb22db56e0",
       "url": "https://registry.npmjs.org/npm/-/npm-6.14.11.tgz",
-      "version": "6.14.11"
+      "version": "6.14.11",
+      "metadata": {
+        "format": "tgz",
+        "paired_with": {
+          "nodejs": "12.21.0"
+        },
+        "provides": [
+          "npm",
+          "npx"
+        ],
+        "role": "package-manager"
+      }
     }
-  ],
-  "language": "javascript",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
   },
-  "schema_version": 3,
-  "software": "nodejs",
-  "version": "12.21.0"
+  "metadata": {
+    "language": "javascript",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    }
+  }
 }

@@ -1,31 +1,34 @@
 {
-  "components": [
-    {
-      "filename": "gcc-9.4.0.tar.xz",
-      "format": "tar.xz",
-      "name": "gcc-source",
-      "provides": [
-        "gcc",
-        "g++",
-        "gccgo",
-        "gfortran"
-      ],
-      "role": "source",
-      "sha256": "c95da32f440378d7751dd95533186f7fc05ceb4fb65eb5b85234e6299eb9838e",
-      "upstream": "GNU FTP",
-      "url": "https://ftp.gnu.org/gnu/gcc/gcc-9.4.0/gcc-9.4.0.tar.xz",
-      "version": "9.4.0"
-    }
-  ],
-  "install": "source build",
-  "language": "c/c++",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
-  },
-  "release_date": "2021-06-01",
-  "schema_version": 3,
+  "schema_version": 4,
   "software": "gcc",
-  "version": "9.4.0"
+  "version": "9.4.0",
+  "packages": {
+    "gcc-source": {
+      "filename": "gcc-9.4.0.tar.xz",
+      "sha256": "c95da32f440378d7751dd95533186f7fc05ceb4fb65eb5b85234e6299eb9838e",
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-9.4.0/gcc-9.4.0.tar.xz",
+      "version": "9.4.0",
+      "metadata": {
+        "format": "tar.xz",
+        "provides": [
+          "gcc",
+          "g++",
+          "gccgo",
+          "gfortran"
+        ],
+        "role": "source",
+        "upstream": "GNU FTP"
+      }
+    }
+  },
+  "metadata": {
+    "install": "source build",
+    "language": "c/c++",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    },
+    "release_date": "2021-06-01"
+  }
 }

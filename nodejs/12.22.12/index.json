@@ -1,45 +1,49 @@
 {
-  "components": [
-    {
-      "bundled_components": {
-        "npm": "6.14.16"
-      },
+  "schema_version": 4,
+  "software": "nodejs",
+  "version": "12.22.12",
+  "packages": {
+    "nodejs": {
       "filename": "node-v12.22.12-linux-x64.tar.xz",
-      "format": "xz",
-      "name": "nodejs",
-      "provides": [
-        "node",
-        "corepack"
-      ],
-      "role": "runtime",
       "sha256": "e6d052364bfa2c17da92cf31794100cfd709ba147415ddaeed2222eec9ca1469",
       "url": "https://nodejs.org/dist/v12.22.12/node-v12.22.12-linux-x64.tar.xz",
-      "version": "12.22.12"
+      "version": "12.22.12",
+      "metadata": {
+        "bundled_components": {
+          "npm": "6.14.16"
+        },
+        "format": "xz",
+        "provides": [
+          "node",
+          "corepack"
+        ],
+        "role": "runtime"
+      }
     },
-    {
+    "npm": {
       "filename": "npm-6.14.16.tgz",
-      "format": "tgz",
-      "name": "npm",
-      "paired_with": {
-        "nodejs": "12.22.12"
-      },
-      "provides": [
-        "npm",
-        "npx"
-      ],
-      "role": "package-manager",
       "sha256": "c3c013acf5e41f79ebc05f31299ceff784bcce17d1e8e80c90af1fec4b153b15",
       "url": "https://registry.npmjs.org/npm/-/npm-6.14.16.tgz",
-      "version": "6.14.16"
+      "version": "6.14.16",
+      "metadata": {
+        "format": "tgz",
+        "paired_with": {
+          "nodejs": "12.22.12"
+        },
+        "provides": [
+          "npm",
+          "npx"
+        ],
+        "role": "package-manager"
+      }
     }
-  ],
-  "language": "javascript",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
   },
-  "schema_version": 3,
-  "software": "nodejs",
-  "version": "12.22.12"
+  "metadata": {
+    "language": "javascript",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    }
+  }
 }

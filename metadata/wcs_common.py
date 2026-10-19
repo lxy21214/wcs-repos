@@ -70,20 +70,29 @@ def select_latest_per_xy(items, version_getter, date_getter=None, min_version=No
             out.append(it)
     return sorted(out,key=lambda it: ver_key(str(version_getter(it)).lstrip('v')))
 
-def artifact(name,version,filename,url,sha256,**extra):
-    o={'name':name,'version':str(version),'filename':filename,'url':url,'sha256':sha256}
-    o.update(extra); return o
+def artifact(version, filename, url, sha256, **metadata):
+    result = {'version': str(version), 'filename': filename, 'url': url, 'sha256': sha256}
+    if metadata:
+        result['metadata'] = metadata
+    return result
 
-def vindex(software,version,components,**kw):
-    o={'schema_version':3,'software':software,'version':str(version),'platform':{'os':'linux','arch':'x86_64','libc':kw.pop('libc','gnu')},'components':components}
-    for k,v in kw.items():
-        if v is not None: o[k]=v
-    return o
 
-def top_index(software, versions, **kw):
-    o={'schema_version':3,'software':software,'versions':[{'version':str(v),'path':f'{v}/index.json'} for v in versions]}
-    o.update({k:v for k,v in kw.items() if v is not None})
-    return o
+def vindex(software, version, packages, **metadata):
+    if not isinstance(packages, dict) or not packages:
+        raise ValueError('v4 packages must be a nonempty mapping keyed by package name')
+    result = {'schema_version': 4, 'software': software, 'version': str(version), 'packages': packages}
+    if metadata:
+        result['metadata'] = metadata
+    return result
+
+
+def top_index(software, versions, **metadata):
+    result = {'schema_version': 4, 'software': software,
+              'versions': [{'version': str(v), 'path': f'{v}/index.json'} for v in versions]}
+    if metadata:
+        result['metadata'] = metadata
+    return result
+
 
 def write_json(rel,obj):
     p=ROOT/rel; p.parent.mkdir(parents=True,exist_ok=True)

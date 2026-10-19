@@ -1,27 +1,30 @@
 {
-  "components": [
-    {
-      "filename": "openjdk-12.0.2_linux-x64_bin.tar.gz",
-      "format": "tar.gz",
-      "name": "jdk",
-      "provides": [
-        "java",
-        "javac"
-      ],
-      "role": "runtime",
-      "sha256": "75998a6ebf477467aa5fb68227a67733f0e77e01f737d4dfbc01e617e59106ed",
-      "upstream": "OpenJDK GA build (jdk.java.net)",
-      "url": "https://download.java.net/java/GA/jdk12.0.2/e482c34c86bd4bf8b56c0b35558996b9/10/GPL/openjdk-12.0.2_linux-x64_bin.tar.gz",
-      "version": "12.0.2"
-    }
-  ],
-  "language": "java",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
-  },
-  "schema_version": 3,
+  "schema_version": 4,
   "software": "java",
-  "version": "12.0.2"
+  "version": "12.0.2",
+  "packages": {
+    "jdk": {
+      "filename": "openjdk-12.0.2_linux-x64_bin.tar.gz",
+      "sha256": "75998a6ebf477467aa5fb68227a67733f0e77e01f737d4dfbc01e617e59106ed",
+      "url": "https://download.java.net/java/GA/jdk12.0.2/e482c34c86bd4bf8b56c0b35558996b9/10/GPL/openjdk-12.0.2_linux-x64_bin.tar.gz",
+      "version": "12.0.2",
+      "metadata": {
+        "format": "tar.gz",
+        "provides": [
+          "java",
+          "javac"
+        ],
+        "role": "runtime",
+        "upstream": "OpenJDK GA build (jdk.java.net)"
+      }
+    }
+  },
+  "metadata": {
+    "language": "java",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    }
+  }
 }

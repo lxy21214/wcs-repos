@@ -1,27 +1,30 @@
 {
-  "components": [
-    {
-      "filename": "openjdk-13.0.2_linux-x64_bin.tar.gz",
-      "format": "tar.gz",
-      "name": "jdk",
-      "provides": [
-        "java",
-        "javac"
-      ],
-      "role": "runtime",
-      "sha256": "acc7a6aabced44e62ec3b83e3b5959df2b1aa6b3d610d58ee45f0c21a7821a71",
-      "upstream": "OpenJDK GA build (jdk.java.net)",
-      "url": "https://download.java.net/java/GA/jdk13.0.2/d4173c853231432d94f001e99d882ca7/8/GPL/openjdk-13.0.2_linux-x64_bin.tar.gz",
-      "version": "13.0.2"
-    }
-  ],
-  "language": "java",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
-  },
-  "schema_version": 3,
+  "schema_version": 4,
   "software": "java",
-  "version": "13.0.2"
+  "version": "13.0.2",
+  "packages": {
+    "jdk": {
+      "filename": "openjdk-13.0.2_linux-x64_bin.tar.gz",
+      "sha256": "acc7a6aabced44e62ec3b83e3b5959df2b1aa6b3d610d58ee45f0c21a7821a71",
+      "url": "https://download.java.net/java/GA/jdk13.0.2/d4173c853231432d94f001e99d882ca7/8/GPL/openjdk-13.0.2_linux-x64_bin.tar.gz",
+      "version": "13.0.2",
+      "metadata": {
+        "format": "tar.gz",
+        "provides": [
+          "java",
+          "javac"
+        ],
+        "role": "runtime",
+        "upstream": "OpenJDK GA build (jdk.java.net)"
+      }
+    }
+  },
+  "metadata": {
+    "language": "java",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    }
+  }
 }

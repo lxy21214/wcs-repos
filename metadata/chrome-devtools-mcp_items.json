@@ -1,0 +1,381 @@
+{
+  "collected": "2026-10-19",
+  "tags_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/tags",
+  "registry_url": "https://registry.npmjs.org/chrome-devtools-mcp",
+  "selection_rule": "Git tags matching chrome-devtools-mcp-v1.x.y; maximum numeric y for each x; stable versions only",
+  "observed_tags": [
+    "41361a804d90fc2a7f92b9ae3de670fc28d94eb9\trefs/tags/chrome-devtools-mcp-v1.0.0",
+    "2a79b426f3313744feb0a2b8879afdaec47d5960\trefs/tags/chrome-devtools-mcp-v1.0.1",
+    "0089ebdd37a6b16e52820a3fcb4af133214754a0\trefs/tags/chrome-devtools-mcp-v1.1.0",
+    "3ba70d350a135f5b444826f204724d08aaa9b924\trefs/tags/chrome-devtools-mcp-v1.1.1",
+    "7139fa894909709c3db8e354e30f366d773dac38\trefs/tags/chrome-devtools-mcp-v1.10.0",
+    "e52c6b59b476c5e04d8dd9fd4bd017ba3b3d65df\trefs/tags/chrome-devtools-mcp-v1.10.1",
+    "a878bcad39584337e055778353246820deafa7c0\trefs/tags/chrome-devtools-mcp-v1.11.0",
+    "702d3734f276a18efd67561ae00b88ce954cc515\trefs/tags/chrome-devtools-mcp-v1.2.0",
+    "4716a72017dcf5d1f23a876dc1232e5bef0102d7\trefs/tags/chrome-devtools-mcp-v1.3.0",
+    "0aaa8e3cc0e9ae55b1ef5b456d6d25526015b886\trefs/tags/chrome-devtools-mcp-v1.4.0",
+    "913308263bdc8042af74924b68dc39a374ad071d\trefs/tags/chrome-devtools-mcp-v1.5.0",
+    "f621d0052fd241dca76e7f615b20e9d320ba965f\trefs/tags/chrome-devtools-mcp-v1.6.0",
+    "774d78f5eef5e610407a0c92fa6ec5ed74b027e8\trefs/tags/chrome-devtools-mcp-v1.7.0",
+    "45f187b1e3202c9f32ddba913be5d68751c3caa3\trefs/tags/chrome-devtools-mcp-v1.8.0",
+    "1cec9cd1a3bbf1895c98fa4b4e0e2da5a36e4075\trefs/tags/chrome-devtools-mcp-v1.9.0"
+  ],
+  "selected": [
+    {
+      "version": "1.0.1",
+      "tag": "chrome-devtools-mcp-v1.0.1",
+      "commit": "2a79b426f3313744feb0a2b8879afdaec47d5960",
+      "published": "2026-05-18T13:59:13.679Z",
+      "dist": {
+        "shasum": "b5c641a04dfcdfd428a2a6de7500874a706746b1",
+        "tarball": "https://registry.npmjs.org/chrome-devtools-mcp/-/chrome-devtools-mcp-1.0.1.tgz",
+        "fileCount": 294,
+        "integrity": "sha512-h80dfsji5fHKoHce4fESVHHpx0jw18TyULDevLEpEsAFl92oy7DSR2l7gbRjGgRWETrtAENgT+7xotBv+7dkxg==",
+        "signatures": [
+          {
+            "sig": "MEQCIA3bFgJmmW6o6ej0o/rlYI0RoX6TLKPpuyxti/kIADyDAiAhSAcpzt/jkgFkoGbaxjv77Q+MKOL7+ThaSbheRsvQKg==",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/chrome-devtools-mcp@1.0.1",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 16869158
+      },
+      "engines": {
+        "node": "^20.19.0 || ^22.12.0 || >=23"
+      }
+    },
+    {
+      "version": "1.1.1",
+      "tag": "chrome-devtools-mcp-v1.1.1",
+      "commit": "3ba70d350a135f5b444826f204724d08aaa9b924",
+      "published": "2026-05-27T11:52:16.056Z",
+      "dist": {
+        "shasum": "319bd53c5cf5c9373f11df16d2581c1c2e563d67",
+        "tarball": "https://registry.npmjs.org/chrome-devtools-mcp/-/chrome-devtools-mcp-1.1.1.tgz",
+        "fileCount": 294,
+        "integrity": "sha512-Fs/ASXAkQqvYCbJjHIx/pnShjyIoZoPxdg4J3wjaA9FLkRb2ngGnisu2AGcBIXdw5qrPkOuV/cOlGOonpsE1qw==",
+        "signatures": [
+          {
+            "sig": "MEQCIHnHCeetjBa+COjq7Qp/eOr2IjQj8LgeRUf5BK5/X2H5AiAacBuRB6VJG+/qoHYQDsieWJN/e75HFauXAxQNntPV+w==",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/chrome-devtools-mcp@1.1.1",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 16883398
+      },
+      "engines": {
+        "node": "^20.19.0 || ^22.12.0 || >=23"
+      }
+    },
+    {
+      "version": "1.2.0",
+      "tag": "chrome-devtools-mcp-v1.2.0",
+      "commit": "702d3734f276a18efd67561ae00b88ce954cc515",
+      "published": "2026-06-08T17:00:03.440Z",
+      "dist": {
+        "shasum": "6692e9c2af22c502c891b0823615350c883dcf41",
+        "tarball": "https://registry.npmjs.org/chrome-devtools-mcp/-/chrome-devtools-mcp-1.2.0.tgz",
+        "fileCount": 351,
+        "integrity": "sha512-xHd8hoLZQArDsYhu8OUHvKBIiihx1Co9DgAPHWaM4kzRf41TpZ0IuxKioIWTEGzFKpRqQzIxpFqydY4AKqP5sQ==",
+        "signatures": [
+          {
+            "sig": "MEUCIQCAd7YhT/kOe4pvBoW5xVqO8rc2x4Wcur0z1cd5m+8SNwIgWpM5ljVnnQo+iiddxKk6FC8+Xs/ORZL6Ae0B3kyPbvc=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/chrome-devtools-mcp@1.2.0",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 16973464
+      },
+      "engines": {
+        "node": "^20.19.0 || ^22.12.0 || >=23"
+      }
+    },
+    {
+      "version": "1.3.0",
+      "tag": "chrome-devtools-mcp-v1.3.0",
+      "commit": "4716a72017dcf5d1f23a876dc1232e5bef0102d7",
+      "published": "2026-06-18T09:54:25.997Z",
+      "dist": {
+        "shasum": "7aeb4c8dab5d8dc536ef683b75e7a81b3989ad0e",
+        "tarball": "https://registry.npmjs.org/chrome-devtools-mcp/-/chrome-devtools-mcp-1.3.0.tgz",
+        "fileCount": 352,
+        "integrity": "sha512-52NVUwWSL4eW7W9nsDrzYJF96IKVuxEwAn4O7ZfdNRtopS954P9nryJbdYwg7vdqxhLrvioGFlm5e4P41WXsiw==",
+        "signatures": [
+          {
+            "sig": "MEUCIAK32bpickekCF9dUovEWKoHilVuvXm+vVyBqZ1RbjyBAiEArHoHBI7mrDUDBun8qGNJmecm/cagB5GMqG8/xb/DAxA=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/chrome-devtools-mcp@1.3.0",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 17010898
+      },
+      "engines": {
+        "node": "^20.19.0 || ^22.12.0 || >=23"
+      }
+    },
+    {
+      "version": "1.4.0",
+      "tag": "chrome-devtools-mcp-v1.4.0",
+      "commit": "0aaa8e3cc0e9ae55b1ef5b456d6d25526015b886",
+      "published": "2026-06-23T07:22:26.127Z",
+      "dist": {
+        "shasum": "d7d75da02e4504dec174f69746be3ec377cb0182",
+        "tarball": "https://registry.npmjs.org/chrome-devtools-mcp/-/chrome-devtools-mcp-1.4.0.tgz",
+        "fileCount": 367,
+        "integrity": "sha512-OOT5mYMUbqqgpIGx0s0TgxnlicRSDm3yhZWzK3pWkB6TUPb+WdpI0j6OQoTnNZ9mqn9rwXiCOLzY4UALp+XsiQ==",
+        "signatures": [
+          {
+            "sig": "MEQCIBw5zJsWzkq4GilhkKOaoXpV4wxmRUVDJYujH6+uGmoPAiA3LmUH2Vu/EYFsZjAVU5ooS5XtYuHiUpKfg89jFa8EvA==",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/chrome-devtools-mcp@1.4.0",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 17100827
+      },
+      "engines": {
+        "node": "^20.19.0 || ^22.12.0 || >=23"
+      }
+    },
+    {
+      "version": "1.5.0",
+      "tag": "chrome-devtools-mcp-v1.5.0",
+      "commit": "913308263bdc8042af74924b68dc39a374ad071d",
+      "published": "2026-07-03T11:19:59.371Z",
+      "dist": {
+        "shasum": "ce206bb783afd8b9550e6f632ad28ee87cd220fe",
+        "tarball": "https://registry.npmjs.org/chrome-devtools-mcp/-/chrome-devtools-mcp-1.5.0.tgz",
+        "fileCount": 367,
+        "integrity": "sha512-Yfpeg6cKnWaFrq/CpTY19bVO0kr84CpHNgTSQXTQshovKcRIf1efh1vAI+IOuCXrQvrul2hE0XoKPn94LRxC1A==",
+        "signatures": [
+          {
+            "sig": "MEUCIQDu48djmj2n1lCiXXJ2Y4HL+HWbDK5o6HHa8uvRXPprzgIgUOTaOL3Rbs3aYu9CGnreDtkTX43AUyB8jAd4ELuY9xo=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/chrome-devtools-mcp@1.5.0",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 17121357
+      },
+      "engines": {
+        "node": "^20.19.0 || ^22.12.0 || >=23"
+      }
+    },
+    {
+      "version": "1.6.0",
+      "tag": "chrome-devtools-mcp-v1.6.0",
+      "commit": "f621d0052fd241dca76e7f615b20e9d320ba965f",
+      "published": "2026-07-14T11:25:29.870Z",
+      "dist": {
+        "shasum": "e9d0886861bf86360413a9bdd667e3bc4a1035ee",
+        "tarball": "https://registry.npmjs.org/chrome-devtools-mcp/-/chrome-devtools-mcp-1.6.0.tgz",
+        "fileCount": 366,
+        "integrity": "sha512-VZX6f/OjQSYhy2BGGRs+y3LsrsAQAz/HwZCWKBLVyST/4r/3zjVEjjVW7gMCVbRDuspnVdcp5hQDPrQ5UFrdZw==",
+        "signatures": [
+          {
+            "sig": "MEYCIQC9hD5bJkuQ/ieqrwP2tL0R8WL7hLl0OfWaWUmZNn6DZQIhAOkFU7sPCSrrZZZfVCNlJ8zV3JowRer2zWsUq0LyKq6j",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/chrome-devtools-mcp@1.6.0",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 12503123
+      },
+      "engines": {
+        "node": "^20.19.0 || ^22.12.0 || >=23"
+      }
+    },
+    {
+      "version": "1.7.0",
+      "tag": "chrome-devtools-mcp-v1.7.0",
+      "commit": "774d78f5eef5e610407a0c92fa6ec5ed74b027e8",
+      "published": "2026-08-10T08:20:48.854Z",
+      "dist": {
+        "shasum": "b20e2ee77afb585e2e762535c37ca9336e7445a4",
+        "tarball": "https://registry.npmjs.org/chrome-devtools-mcp/-/chrome-devtools-mcp-1.7.0.tgz",
+        "fileCount": 337,
+        "integrity": "sha512-6xFW7oiUxTxZuHcfyYBkKQtmttjCbfifKZMSEk5CV8H2FucvKweYiJr8CblddYHtYjA4C14K9VAs1r49906RBA==",
+        "signatures": [
+          {
+            "sig": "MEQCIBG3ecOXGlCwl7dpxdWFhzYMUQE/b8YILaJ//x4wW2XkAiAY0rwqARqe4AJape3puQnjDHXQ8b24nLtbM7d0J2569g==",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "sig": "MEUCIEATNTif3sWbDolVrSHUtfLRSX1We2+YAlLbaDV2OeAoAiEA8SN5eCz4KAWR50H+2I/U2zu24qORAkRs5AA1kEcWFgg=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/chrome-devtools-mcp@1.7.0",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 13192020
+      },
+      "engines": {
+        "node": "^20.19.0 || ^22.12.0 || >=23"
+      }
+    },
+    {
+      "version": "1.8.0",
+      "tag": "chrome-devtools-mcp-v1.8.0",
+      "commit": "45f187b1e3202c9f32ddba913be5d68751c3caa3",
+      "published": "2026-08-25T11:44:22.188Z",
+      "dist": {
+        "shasum": "f509e26068b9b96302eba68d9965dd3022fffdd6",
+        "tarball": "https://registry.npmjs.org/chrome-devtools-mcp/-/chrome-devtools-mcp-1.8.0.tgz",
+        "fileCount": 345,
+        "integrity": "sha512-Wrm9z0/5WbVs778apjWgYRkpe9bvYQWjK2zVRwqoPAtz1IHQ5+GvotM07UGXJcfrA0rj6Gt1Pnn5+w/Tf1nU4w==",
+        "signatures": [
+          {
+            "sig": "MEUCIBNdTMme0U7sbTCjRuFBCUtYRzEZr6WSBlW7bIlasvC1AiEAwcSz1Z77chGxpy7cxo4LnG/uMrrTR3pjCP7VSIjlkII=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "sig": "MEUCIQDonYZ8kEhXwPvyIzpBX4sZ04LBe6pUEghTpiAEHmTkugIgDHgRHvNZ7bnp0eIWds536BIAa3gkMjPpN24Ze+fk3kM=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/chrome-devtools-mcp@1.8.0",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 13246625
+      },
+      "engines": {
+        "node": "^20.19.0 || ^22.12.0 || >=23"
+      }
+    },
+    {
+      "version": "1.9.0",
+      "tag": "chrome-devtools-mcp-v1.9.0",
+      "commit": "1cec9cd1a3bbf1895c98fa4b4e0e2da5a36e4075",
+      "published": "2026-09-08T09:53:29.850Z",
+      "dist": {
+        "shasum": "86bf2bde0bc4ec07aa428b36ea612eaa7a37a77c",
+        "tarball": "https://registry.npmjs.org/chrome-devtools-mcp/-/chrome-devtools-mcp-1.9.0.tgz",
+        "fileCount": 348,
+        "integrity": "sha512-RnzXoJiUQ44hpOihWk90uOhLD/CnwDkDy0ldHMZONJ2nYQ+dWN1fq1luHHqyd+7FuYnyIlCY6uTThbN5ut9kSQ==",
+        "signatures": [
+          {
+            "sig": "MEQCIBU3J5TJn0qbqVmUFRYHIHJJLeU3Q4FOpLtO2bY3BvzbAiAuvZq8YInAeQkKhP5WaMnva3INtMWESSkn9fSx77Mk/g==",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "sig": "MEYCIQDx9B5fWPEZR8vi1qrsMHWQAg2rUJSO2aYkIG1RJoURhgIhAPVLptEgc3X1a5TzcW6JRb+YocKk3k5qRLhyw3nJPcuw",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/chrome-devtools-mcp@1.9.0",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 13303361
+      },
+      "engines": {
+        "node": "^20.19.0 || ^22.12.0 || >=23"
+      }
+    },
+    {
+      "version": "1.10.1",
+      "tag": "chrome-devtools-mcp-v1.10.1",
+      "commit": "e52c6b59b476c5e04d8dd9fd4bd017ba3b3d65df",
+      "published": "2026-09-23T10:42:53.202Z",
+      "dist": {
+        "shasum": "eda0a35d15463e8877b6f70eb355a91ed0b11100",
+        "tarball": "https://registry.npmjs.org/chrome-devtools-mcp/-/chrome-devtools-mcp-1.10.1.tgz",
+        "fileCount": 359,
+        "integrity": "sha512-Klw6HWDqHC/XS1JwZldd2r49aUhbUJN9m9Mvcx4SEueIPXtzuQX+QelxAViobv8YUkDZ7HWDrmViR6LeYK0wAw==",
+        "signatures": [
+          {
+            "sig": "MEUCICYsRuxdeVnuP0zNUSGThqXxOMbXmOpJNbV27P4kPk17AiEAjiCHPdmv0NkVD55N36uTZjtJ5AhglR8RMBtZ0HzA6og=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "sig": "MEUCIQDHghPNVN3cNGiL1fXyoI1oPxINQuWKrK/bPR8gdiUeWgIgU1BPV2xvskcEH7e/ZZDUxRHcNywuyrRE00IO2chScH8=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/chrome-devtools-mcp@1.10.1",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 14250471
+      },
+      "engines": {
+        "node": "^20.19.0 || ^22.12.0 || >=23"
+      }
+    },
+    {
+      "version": "1.11.0",
+      "tag": "chrome-devtools-mcp-v1.11.0",
+      "commit": "a878bcad39584337e055778353246820deafa7c0",
+      "published": "2026-10-15T14:05:14.995Z",
+      "dist": {
+        "shasum": "c370697cced824e867be0005e39b4bd9e62e32d2",
+        "tarball": "https://registry.npmjs.org/chrome-devtools-mcp/-/chrome-devtools-mcp-1.11.0.tgz",
+        "fileCount": 370,
+        "integrity": "sha512-CytJ/5tnzrS+J/74be2P5aCOsS/mmGRHys/Si+IYC4ucrbnWAmES/dYdxGJjeUCECRcoFUilZAysdjlwqUjXIA==",
+        "signatures": [
+          {
+            "sig": "MEUCIQDrNQUisHIoNjpb5ODPHOSGVJNsvGj0YCHQ6qoa07cuPwIgNgR1j399juaahVBGVUAZhzdhn5E2Vbzq+kJRHT5CjPg=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+            "sig": "MEUCIQD4+VCgGCCBl/bVZqZRAtd6OofMSblCJwc81UXfLEVbrAIgNuVX1nyKbbjR79Uo4LnAq12KaaZZY3zGOTdQtDY6fnc="
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/chrome-devtools-mcp@1.11.0",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 14062824
+      },
+      "engines": {
+        "node": "^20.19.0 || ^22.12.0 || >=23"
+      }
+    }
+  ]
+}

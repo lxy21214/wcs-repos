@@ -1,45 +1,49 @@
 {
-  "components": [
-    {
-      "bundled_components": {
-        "npm": "3.6.0"
-      },
+  "schema_version": 4,
+  "software": "nodejs",
+  "version": "5.7.1",
+  "packages": {
+    "nodejs": {
       "filename": "node-v5.7.1-linux-x64.tar.xz",
-      "format": "xz",
-      "name": "nodejs",
-      "provides": [
-        "node",
-        "corepack"
-      ],
-      "role": "runtime",
       "sha256": "5584895f87a57ee26a75bf8505f6a2350a3ab219accf1df44c2f6406ddfad6ed",
       "url": "https://nodejs.org/dist/v5.7.1/node-v5.7.1-linux-x64.tar.xz",
-      "version": "5.7.1"
+      "version": "5.7.1",
+      "metadata": {
+        "bundled_components": {
+          "npm": "3.6.0"
+        },
+        "format": "xz",
+        "provides": [
+          "node",
+          "corepack"
+        ],
+        "role": "runtime"
+      }
     },
-    {
+    "npm": {
       "filename": "npm-3.6.0.tgz",
-      "format": "tgz",
-      "name": "npm",
-      "paired_with": {
-        "nodejs": "5.7.1"
-      },
-      "provides": [
-        "npm",
-        "npx"
-      ],
-      "role": "package-manager",
       "sha256": "e686676c9d6db00f43f415998a8e0f47f415549f850f4b86ffdc7d7677db70e0",
       "url": "https://registry.npmjs.org/npm/-/npm-3.6.0.tgz",
-      "version": "3.6.0"
+      "version": "3.6.0",
+      "metadata": {
+        "format": "tgz",
+        "paired_with": {
+          "nodejs": "5.7.1"
+        },
+        "provides": [
+          "npm",
+          "npx"
+        ],
+        "role": "package-manager"
+      }
     }
-  ],
-  "language": "javascript",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
   },
-  "schema_version": 3,
-  "software": "nodejs",
-  "version": "5.7.1"
+  "metadata": {
+    "language": "javascript",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    }
+  }
 }

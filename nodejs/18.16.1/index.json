@@ -1,45 +1,49 @@
 {
-  "components": [
-    {
-      "bundled_components": {
-        "npm": "9.5.1"
-      },
+  "schema_version": 4,
+  "software": "nodejs",
+  "version": "18.16.1",
+  "packages": {
+    "nodejs": {
       "filename": "node-v18.16.1-linux-x64.tar.xz",
-      "format": "xz",
-      "name": "nodejs",
-      "provides": [
-        "node",
-        "corepack"
-      ],
-      "role": "runtime",
       "sha256": "ecfe263dbd9c239f37b5adca823b60be1bb57feabbccd25db785e647ebc5ff5e",
       "url": "https://nodejs.org/dist/v18.16.1/node-v18.16.1-linux-x64.tar.xz",
-      "version": "18.16.1"
+      "version": "18.16.1",
+      "metadata": {
+        "bundled_components": {
+          "npm": "9.5.1"
+        },
+        "format": "xz",
+        "provides": [
+          "node",
+          "corepack"
+        ],
+        "role": "runtime"
+      }
     },
-    {
+    "npm": {
       "filename": "npm-9.5.1.tgz",
-      "format": "tgz",
-      "name": "npm",
-      "paired_with": {
-        "nodejs": "18.16.1"
-      },
-      "provides": [
-        "npm",
-        "npx"
-      ],
-      "role": "package-manager",
       "sha256": "f5f0cbf0d054e604bf9497b94f095f892702e9259361a6577b0a0fd49755cfbf",
       "url": "https://registry.npmjs.org/npm/-/npm-9.5.1.tgz",
-      "version": "9.5.1"
+      "version": "9.5.1",
+      "metadata": {
+        "format": "tgz",
+        "paired_with": {
+          "nodejs": "18.16.1"
+        },
+        "provides": [
+          "npm",
+          "npx"
+        ],
+        "role": "package-manager"
+      }
     }
-  ],
-  "language": "javascript",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
   },
-  "schema_version": 3,
-  "software": "nodejs",
-  "version": "18.16.1"
+  "metadata": {
+    "language": "javascript",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    }
+  }
 }

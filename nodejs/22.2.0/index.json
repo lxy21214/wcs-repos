@@ -1,45 +1,49 @@
 {
-  "components": [
-    {
-      "bundled_components": {
-        "npm": "10.7.0"
-      },
+  "schema_version": 4,
+  "software": "nodejs",
+  "version": "22.2.0",
+  "packages": {
+    "nodejs": {
       "filename": "node-v22.2.0-linux-x64.tar.xz",
-      "format": "xz",
-      "name": "nodejs",
-      "provides": [
-        "node",
-        "corepack"
-      ],
-      "role": "runtime",
       "sha256": "3544eee9cb1414d6e9003efd56bc807ffb0f4445d2fc383e1df04c3e5e72c91b",
       "url": "https://nodejs.org/dist/v22.2.0/node-v22.2.0-linux-x64.tar.xz",
-      "version": "22.2.0"
+      "version": "22.2.0",
+      "metadata": {
+        "bundled_components": {
+          "npm": "10.7.0"
+        },
+        "format": "xz",
+        "provides": [
+          "node",
+          "corepack"
+        ],
+        "role": "runtime"
+      }
     },
-    {
+    "npm": {
       "filename": "npm-10.7.0.tgz",
-      "format": "tgz",
-      "name": "npm",
-      "paired_with": {
-        "nodejs": "22.2.0"
-      },
-      "provides": [
-        "npm",
-        "npx"
-      ],
-      "role": "package-manager",
       "sha256": "f443ed4364ea11ac5cf7cae7fb4731278c64dd6839093f8a46eabde0430e0fcd",
       "url": "https://registry.npmjs.org/npm/-/npm-10.7.0.tgz",
-      "version": "10.7.0"
+      "version": "10.7.0",
+      "metadata": {
+        "format": "tgz",
+        "paired_with": {
+          "nodejs": "22.2.0"
+        },
+        "provides": [
+          "npm",
+          "npx"
+        ],
+        "role": "package-manager"
+      }
     }
-  ],
-  "language": "javascript",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
   },
-  "schema_version": 3,
-  "software": "nodejs",
-  "version": "22.2.0"
+  "metadata": {
+    "language": "javascript",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    }
+  }
 }

@@ -1,26 +1,29 @@
 {
-  "components": [
-    {
-      "filename": "uv-0.10.12-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-      "format": "whl",
-      "name": "uv",
-      "provides": [
-        "uv"
-      ],
-      "role": "package-manager",
-      "sha256": "101481a1f48db6becf219914a591a588c0b3bfd05bef90768a5d04972bd6455e",
-      "source": "pypi",
-      "url": "https://files.pythonhosted.org/packages/8d/42/139e68d7d92bb90a33b5e269dbe474acb00b6c9797541032f859c5bf4c4d/uv-0.10.12-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-      "version": "0.10.12"
-    }
-  ],
-  "language": "-",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
-  },
-  "schema_version": 3,
+  "schema_version": 4,
   "software": "uv",
-  "version": "0.10.12"
+  "version": "0.10.12",
+  "packages": {
+    "uv": {
+      "filename": "uv-0.10.12-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "101481a1f48db6becf219914a591a588c0b3bfd05bef90768a5d04972bd6455e",
+      "url": "https://files.pythonhosted.org/packages/8d/42/139e68d7d92bb90a33b5e269dbe474acb00b6c9797541032f859c5bf4c4d/uv-0.10.12-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "version": "0.10.12",
+      "metadata": {
+        "format": "whl",
+        "provides": [
+          "uv"
+        ],
+        "role": "package-manager",
+        "source": "pypi"
+      }
+    }
+  },
+  "metadata": {
+    "language": "-",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    }
+  }
 }

@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "wcs-repo software index v4",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "software",
+    "version",
+    "packages"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 4
+    },
+    "software": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[^/\\\\\\u0000-\\u001f\\u007f]+$",
+      "not": {
+        "enum": [
+          ".",
+          ".."
+        ]
+      }
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[^/\\\\\\u0000-\\u001f\\u007f]+$",
+      "not": {
+        "enum": [
+          ".",
+          ".."
+        ]
+      }
+    },
+    "metadata": {
+      "type": "object"
+    },
+    "packages": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "^[^/\\\\\\u0000-\\u001f\\u007f]+$",
+        "not": {
+          "enum": [
+            ".",
+            ".."
+          ]
+        }
+      },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "filename",
+          "url",
+          "sha256"
+        ],
+        "properties": {
+          "filename": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[^/\\\\\\u0000-\\u001f\\u007f]+$",
+            "not": {
+              "enum": [
+                ".",
+                ".."
+              ]
+            }
+          },
+          "version": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://[^/?#@\\s]+(?:[/?#][^\\s]*)?$"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{64}$"
+          },
+          "cache": {
+            "type": "string",
+            "pattern": "^(?:\\./)?(?!\\.{1,2}(?:/|$))[^/\\\\\\u0000-\\u001f\\u007f]+(?:/(?!\\.{1,2}(?:/|$))[^/\\\\\\u0000-\\u001f\\u007f]+)*$"
+          },
+          "metadata": {
+            "type": "object"
+          }
+        }
+      }
+    }
+  }
+}

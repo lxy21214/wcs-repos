@@ -1,31 +1,34 @@
 {
-  "components": [
-    {
-      "filename": "gcc-10.1.0.tar.xz",
-      "format": "tar.xz",
-      "name": "gcc-source",
-      "provides": [
-        "gcc",
-        "g++",
-        "gccgo",
-        "gfortran"
-      ],
-      "role": "source",
-      "sha256": "b6898a23844b656f1b68691c5c012036c2e694ac4b53a8918d4712ad876e7ea2",
-      "upstream": "GNU FTP",
-      "url": "https://ftp.gnu.org/gnu/gcc/gcc-10.1.0/gcc-10.1.0.tar.xz",
-      "version": "10.1.0"
-    }
-  ],
-  "install": "source build",
-  "language": "c/c++",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
-  },
-  "release_date": "2020-05-07",
-  "schema_version": 3,
+  "schema_version": 4,
   "software": "gcc",
-  "version": "10.1.0"
+  "version": "10.1.0",
+  "packages": {
+    "gcc-source": {
+      "filename": "gcc-10.1.0.tar.xz",
+      "sha256": "b6898a23844b656f1b68691c5c012036c2e694ac4b53a8918d4712ad876e7ea2",
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-10.1.0/gcc-10.1.0.tar.xz",
+      "version": "10.1.0",
+      "metadata": {
+        "format": "tar.xz",
+        "provides": [
+          "gcc",
+          "g++",
+          "gccgo",
+          "gfortran"
+        ],
+        "role": "source",
+        "upstream": "GNU FTP"
+      }
+    }
+  },
+  "metadata": {
+    "install": "source build",
+    "language": "c/c++",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    },
+    "release_date": "2020-05-07"
+  }
 }

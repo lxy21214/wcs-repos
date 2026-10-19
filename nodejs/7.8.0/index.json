@@ -1,45 +1,49 @@
 {
-  "components": [
-    {
-      "bundled_components": {
-        "npm": "4.2.0"
-      },
+  "schema_version": 4,
+  "software": "nodejs",
+  "version": "7.8.0",
+  "packages": {
+    "nodejs": {
       "filename": "node-v7.8.0-linux-x64.tar.xz",
-      "format": "xz",
-      "name": "nodejs",
-      "provides": [
-        "node",
-        "corepack"
-      ],
-      "role": "runtime",
       "sha256": "1fca4e71d6f00f7f727994fccc604716160f06aa1ad6d8689d84cd3ca5227312",
       "url": "https://nodejs.org/dist/v7.8.0/node-v7.8.0-linux-x64.tar.xz",
-      "version": "7.8.0"
+      "version": "7.8.0",
+      "metadata": {
+        "bundled_components": {
+          "npm": "4.2.0"
+        },
+        "format": "xz",
+        "provides": [
+          "node",
+          "corepack"
+        ],
+        "role": "runtime"
+      }
     },
-    {
+    "npm": {
       "filename": "npm-4.2.0.tgz",
-      "format": "tgz",
-      "name": "npm",
-      "paired_with": {
-        "nodejs": "7.8.0"
-      },
-      "provides": [
-        "npm",
-        "npx"
-      ],
-      "role": "package-manager",
       "sha256": "bb9883f1581fd10854a8b6917ae1279f691a8d89e81a0cbea77b614dbcd53f5a",
       "url": "https://registry.npmjs.org/npm/-/npm-4.2.0.tgz",
-      "version": "4.2.0"
+      "version": "4.2.0",
+      "metadata": {
+        "format": "tgz",
+        "paired_with": {
+          "nodejs": "7.8.0"
+        },
+        "provides": [
+          "npm",
+          "npx"
+        ],
+        "role": "package-manager"
+      }
     }
-  ],
-  "language": "javascript",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
   },
-  "schema_version": 3,
-  "software": "nodejs",
-  "version": "7.8.0"
+  "metadata": {
+    "language": "javascript",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    }
+  }
 }

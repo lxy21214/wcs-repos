@@ -1,45 +1,49 @@
 {
-  "components": [
-    {
-      "bundled_components": {
-        "npm": "10.5.0"
-      },
+  "schema_version": 4,
+  "software": "nodejs",
+  "version": "21.7.3",
+  "packages": {
+    "nodejs": {
       "filename": "node-v21.7.3-linux-x64.tar.xz",
-      "format": "xz",
-      "name": "nodejs",
-      "provides": [
-        "node",
-        "corepack"
-      ],
-      "role": "runtime",
       "sha256": "19e17a77e59044de169cd19be3f3bccae686982fba022f9634421b44724ee90c",
       "url": "https://nodejs.org/dist/v21.7.3/node-v21.7.3-linux-x64.tar.xz",
-      "version": "21.7.3"
+      "version": "21.7.3",
+      "metadata": {
+        "bundled_components": {
+          "npm": "10.5.0"
+        },
+        "format": "xz",
+        "provides": [
+          "node",
+          "corepack"
+        ],
+        "role": "runtime"
+      }
     },
-    {
+    "npm": {
       "filename": "npm-10.5.0.tgz",
-      "format": "tgz",
-      "name": "npm",
-      "paired_with": {
-        "nodejs": "21.7.3"
-      },
-      "provides": [
-        "npm",
-        "npx"
-      ],
-      "role": "package-manager",
       "sha256": "17ca6e08e7633b624e8f870db81a78f46afe119de62bcaf0a7407574139198fc",
       "url": "https://registry.npmjs.org/npm/-/npm-10.5.0.tgz",
-      "version": "10.5.0"
+      "version": "10.5.0",
+      "metadata": {
+        "format": "tgz",
+        "paired_with": {
+          "nodejs": "21.7.3"
+        },
+        "provides": [
+          "npm",
+          "npx"
+        ],
+        "role": "package-manager"
+      }
     }
-  ],
-  "language": "javascript",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
   },
-  "schema_version": 3,
-  "software": "nodejs",
-  "version": "21.7.3"
+  "metadata": {
+    "language": "javascript",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    }
+  }
 }

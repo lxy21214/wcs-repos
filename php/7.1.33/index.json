@@ -1,29 +1,32 @@
 {
-  "components": [
-    {
+  "schema_version": 4,
+  "software": "php",
+  "version": "7.1.33",
+  "packages": {
+    "php-source": {
       "filename": "php-7.1.33.tar.xz",
-      "format": "tar.xz",
-      "name": "php-source",
-      "provides": [
-        "php",
-        "php-cli",
-        "php-fpm",
-        "phpize"
-      ],
-      "role": "source",
       "sha256": "bd7c0a9bd5433289ee01fd440af3715309faf583f75832b64fe169c100d52968",
       "url": "https://www.php.net/distributions/php-7.1.33.tar.xz",
-      "version": "7.1.33"
+      "version": "7.1.33",
+      "metadata": {
+        "format": "tar.xz",
+        "provides": [
+          "php",
+          "php-cli",
+          "php-fpm",
+          "phpize"
+        ],
+        "role": "source"
+      }
     }
-  ],
-  "install": "source build",
-  "language": "php",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
   },
-  "schema_version": 3,
-  "software": "php",
-  "version": "7.1.33"
+  "metadata": {
+    "install": "source build",
+    "language": "php",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    }
+  }
 }

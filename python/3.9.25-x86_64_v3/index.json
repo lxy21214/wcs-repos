@@ -1,0 +1,36 @@
+{
+  "schema_version": 4,
+  "software": "python",
+  "version": "3.9.25-x86_64_v3",
+  "packages": {
+    "python": {
+      "filename": "cpython-3.9.25+20251031-x86_64_v3-unknown-linux-gnu-pgo+lto-full.tar.zst",
+      "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20251031/cpython-3.9.25%2B20251031-x86_64_v3-unknown-linux-gnu-pgo%2Blto-full.tar.zst",
+      "sha256": "8e1b00a95a46ae468c6f05b1665a7e7f3ec315942b81871df9d825cf715f2502",
+      "version": "3.9.25",
+      "metadata": {
+        "format": "tar.zst",
+        "arch": "x86_64",
+        "cpu": "x86_64_v3",
+        "upstream": "python-build-standalone"
+      }
+    },
+    "uv": {
+      "filename": "uv-0.8.24-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "0a75005a146e81ed1bbb0b6e55db18c8ad1e7d714392cdb94a63fa7a3259ad4f",
+      "url": "https://files.pythonhosted.org/packages/15/91/0cb0e416a8b7cfdc7f15e39d700dc06a9689073206fee4c7bf8f1fd68331/uv-0.8.24-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "version": "0.8.24",
+      "metadata": {
+        "format": "whl",
+        "paired_with": {
+          "python": "3.9.25-x86_64_v3"
+        },
+        "provides": [
+          "uv"
+        ],
+        "role": "package-manager",
+        "source": "pypi"
+      }
+    }
+  }
+}

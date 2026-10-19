@@ -1,45 +1,49 @@
 {
-  "components": [
-    {
-      "bundled_components": {
-        "npm": "8.19.3"
-      },
+  "schema_version": 4,
+  "software": "nodejs",
+  "version": "19.2.0",
+  "packages": {
+    "nodejs": {
       "filename": "node-v19.2.0-linux-x64.tar.xz",
-      "format": "xz",
-      "name": "nodejs",
-      "provides": [
-        "node",
-        "corepack"
-      ],
-      "role": "runtime",
       "sha256": "4e20cb95ff7ca11c4df2d60de661f670381de16ab37964be12a951d3218e9a9d",
       "url": "https://nodejs.org/dist/v19.2.0/node-v19.2.0-linux-x64.tar.xz",
-      "version": "19.2.0"
+      "version": "19.2.0",
+      "metadata": {
+        "bundled_components": {
+          "npm": "8.19.3"
+        },
+        "format": "xz",
+        "provides": [
+          "node",
+          "corepack"
+        ],
+        "role": "runtime"
+      }
     },
-    {
+    "npm": {
       "filename": "npm-8.19.3.tgz",
-      "format": "tgz",
-      "name": "npm",
-      "paired_with": {
-        "nodejs": "19.2.0"
-      },
-      "provides": [
-        "npm",
-        "npx"
-      ],
-      "role": "package-manager",
       "sha256": "634bf4e0dc87be771ebf48a058629960e979a209c20a51ebdbc4897ca6a25260",
       "url": "https://registry.npmjs.org/npm/-/npm-8.19.3.tgz",
-      "version": "8.19.3"
+      "version": "8.19.3",
+      "metadata": {
+        "format": "tgz",
+        "paired_with": {
+          "nodejs": "19.2.0"
+        },
+        "provides": [
+          "npm",
+          "npx"
+        ],
+        "role": "package-manager"
+      }
     }
-  ],
-  "language": "javascript",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
   },
-  "schema_version": 3,
-  "software": "nodejs",
-  "version": "19.2.0"
+  "metadata": {
+    "language": "javascript",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    }
+  }
 }

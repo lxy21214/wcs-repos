@@ -1,43 +1,47 @@
 {
-  "components": [
-    {
-      "filename": "Python-3.8.20.tgz",
-      "format": "tar.gz",
-      "name": "python-source",
-      "provides": [
-        "python"
-      ],
-      "role": "source",
-      "sha256": "9f2d5962c2583e67ef75924cd56d0c1af78bf45ec57035cf8a2cc09f74f4bf78",
-      "upstream": "python.org",
-      "url": "https://www.python.org/ftp/python/3.8.20/Python-3.8.20.tgz",
-      "version": "3.8.20"
-    },
-    {
-      "filename": "uv-0.3.5-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-      "format": "whl",
-      "name": "uv",
-      "paired_with": {
-        "python": "3.8.20"
-      },
-      "provides": [
-        "uv"
-      ],
-      "role": "package-manager",
-      "sha256": "cdab52c5c1ed97805f2b4d7648615e10a823f8c5497207d5f14f5b6062c4798b",
-      "source": "pypi",
-      "url": "https://files.pythonhosted.org/packages/07/fe/20aadf565a5cef95d8382c7b4e79423d2903cddf1c42fc01706bd389f8ec/uv-0.3.5-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-      "version": "0.3.5"
-    }
-  ],
-  "language": "python",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
-  },
-  "release_date": "2024-09-06",
-  "schema_version": 3,
+  "schema_version": 4,
   "software": "python",
-  "version": "3.8.20"
+  "version": "3.8.20",
+  "packages": {
+    "python-source": {
+      "filename": "Python-3.8.20.tgz",
+      "sha256": "9f2d5962c2583e67ef75924cd56d0c1af78bf45ec57035cf8a2cc09f74f4bf78",
+      "url": "https://www.python.org/ftp/python/3.8.20/Python-3.8.20.tgz",
+      "version": "3.8.20",
+      "metadata": {
+        "format": "tar.gz",
+        "provides": [
+          "python"
+        ],
+        "role": "source",
+        "upstream": "python.org"
+      }
+    },
+    "uv": {
+      "filename": "uv-0.3.5-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "cdab52c5c1ed97805f2b4d7648615e10a823f8c5497207d5f14f5b6062c4798b",
+      "url": "https://files.pythonhosted.org/packages/07/fe/20aadf565a5cef95d8382c7b4e79423d2903cddf1c42fc01706bd389f8ec/uv-0.3.5-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "version": "0.3.5",
+      "metadata": {
+        "format": "whl",
+        "paired_with": {
+          "python": "3.8.20"
+        },
+        "provides": [
+          "uv"
+        ],
+        "role": "package-manager",
+        "source": "pypi"
+      }
+    }
+  },
+  "metadata": {
+    "language": "python",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    },
+    "release_date": "2024-09-06"
+  }
 }

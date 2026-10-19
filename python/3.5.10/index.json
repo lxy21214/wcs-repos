@@ -1,43 +1,47 @@
 {
-  "components": [
-    {
-      "filename": "Python-3.5.10.tgz",
-      "format": "tar.gz",
-      "name": "python-source",
-      "provides": [
-        "python"
-      ],
-      "role": "source",
-      "sha256": "3496a0daf51913718a6f10e3eda51fa43634cb6151cb096f312d48bdbeff7d3a",
-      "upstream": "python.org",
-      "url": "https://www.python.org/ftp/python/3.5.10/Python-3.5.10.tgz",
-      "version": "3.5.10"
-    },
-    {
-      "filename": "uv-0.13.1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-      "format": "whl",
-      "name": "uv",
-      "paired_with": {
-        "python": "3.5.10"
-      },
-      "provides": [
-        "uv"
-      ],
-      "role": "package-manager",
-      "sha256": "696dcf6d807d85da978f4db8472da81dccc1254b18b52cbd1367c4d923c421e0",
-      "source": "pypi",
-      "url": "https://files.pythonhosted.org/packages/14/0b/6602a613533602e7a083e908c4375f9b0e78a94ba2e21c29b21c41a0a611/uv-0.13.1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-      "version": "0.13.1"
-    }
-  ],
-  "language": "python",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
-  },
-  "release_date": "2020-09-05",
-  "schema_version": 3,
+  "schema_version": 4,
   "software": "python",
-  "version": "3.5.10"
+  "version": "3.5.10",
+  "packages": {
+    "python-source": {
+      "filename": "Python-3.5.10.tgz",
+      "sha256": "3496a0daf51913718a6f10e3eda51fa43634cb6151cb096f312d48bdbeff7d3a",
+      "url": "https://www.python.org/ftp/python/3.5.10/Python-3.5.10.tgz",
+      "version": "3.5.10",
+      "metadata": {
+        "format": "tar.gz",
+        "provides": [
+          "python"
+        ],
+        "role": "source",
+        "upstream": "python.org"
+      }
+    },
+    "uv": {
+      "filename": "uv-0.13.1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "696dcf6d807d85da978f4db8472da81dccc1254b18b52cbd1367c4d923c421e0",
+      "url": "https://files.pythonhosted.org/packages/14/0b/6602a613533602e7a083e908c4375f9b0e78a94ba2e21c29b21c41a0a611/uv-0.13.1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "version": "0.13.1",
+      "metadata": {
+        "format": "whl",
+        "paired_with": {
+          "python": "3.5.10"
+        },
+        "provides": [
+          "uv"
+        ],
+        "role": "package-manager",
+        "source": "pypi"
+      }
+    }
+  },
+  "metadata": {
+    "language": "python",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    },
+    "release_date": "2020-09-05"
+  }
 }

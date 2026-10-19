@@ -1,29 +1,32 @@
 {
-  "components": [
-    {
+  "schema_version": 4,
+  "software": "php",
+  "version": "7.2.34",
+  "packages": {
+    "php-source": {
       "filename": "php-7.2.34.tar.xz",
-      "format": "tar.xz",
-      "name": "php-source",
-      "provides": [
-        "php",
-        "php-cli",
-        "php-fpm",
-        "phpize"
-      ],
-      "role": "source",
       "sha256": "409e11bc6a2c18707dfc44bc61c820ddfd81e17481470f3405ee7822d8379903",
       "url": "https://www.php.net/distributions/php-7.2.34.tar.xz",
-      "version": "7.2.34"
+      "version": "7.2.34",
+      "metadata": {
+        "format": "tar.xz",
+        "provides": [
+          "php",
+          "php-cli",
+          "php-fpm",
+          "phpize"
+        ],
+        "role": "source"
+      }
     }
-  ],
-  "install": "source build",
-  "language": "php",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
   },
-  "schema_version": 3,
-  "software": "php",
-  "version": "7.2.34"
+  "metadata": {
+    "install": "source build",
+    "language": "php",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    }
+  }
 }

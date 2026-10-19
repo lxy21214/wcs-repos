@@ -1,0 +1,38 @@
+{
+  "schema_version": 4,
+  "software": "chrome-devtools-mcp",
+  "version": "1.5.0",
+  "packages": {
+    "chrome-devtools-mcp": {
+      "version": "1.5.0",
+      "filename": "chrome-devtools-mcp-1.5.0.tgz",
+      "url": "https://registry.npmjs.org/chrome-devtools-mcp/-/chrome-devtools-mcp-1.5.0.tgz",
+      "sha256": "065788d2755517488f9f362b5eef4316607d138348c23641fe170f85203c5457",
+      "metadata": {
+        "role": "runtime",
+        "provides": [
+          "chrome-devtools-mcp",
+          "chrome-devtools"
+        ],
+        "format": "tar.gz",
+        "source": "npm",
+        "upstream": "ChromeDevTools/chrome-devtools-mcp",
+        "git_tag": "chrome-devtools-mcp-v1.5.0",
+        "git_commit": "913308263bdc8042af74924b68dc39a374ad071d",
+        "npm_integrity": "sha512-Yfpeg6cKnWaFrq/CpTY19bVO0kr84CpHNgTSQXTQshovKcRIf1efh1vAI+IOuCXrQvrul2hE0XoKPn94LRxC1A==",
+        "engines": {
+          "node": "^20.19.0 || ^22.12.0 || >=23"
+        },
+        "mirror_url": "https://raw.githubusercontent.com/lxy21214/wcs-repos/main/chrome-devtools-mcp/1.5.0/chrome-devtools-mcp-1.5.0.tgz"
+      },
+      "cache": "./chrome-devtools-mcp-1.5.0.tgz"
+    }
+  },
+  "metadata": {
+    "platform": {
+      "os": "linux",
+      "arch": "x86_64"
+    },
+    "release_date": "2026-07-03"
+  }
+}

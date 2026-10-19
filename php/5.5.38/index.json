@@ -1,29 +1,32 @@
 {
-  "components": [
-    {
+  "schema_version": 4,
+  "software": "php",
+  "version": "5.5.38",
+  "packages": {
+    "php-source": {
       "filename": "php-5.5.38.tar.xz",
-      "format": "tar.xz",
-      "name": "php-source",
-      "provides": [
-        "php",
-        "php-cli",
-        "php-fpm",
-        "phpize"
-      ],
-      "role": "source",
       "sha256": "cb527c44b48343c8557fe2446464ff1d4695155a95601083e5d1f175df95580f",
       "url": "https://www.php.net/distributions/php-5.5.38.tar.xz",
-      "version": "5.5.38"
+      "version": "5.5.38",
+      "metadata": {
+        "format": "tar.xz",
+        "provides": [
+          "php",
+          "php-cli",
+          "php-fpm",
+          "phpize"
+        ],
+        "role": "source"
+      }
     }
-  ],
-  "install": "source build",
-  "language": "php",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
   },
-  "schema_version": 3,
-  "software": "php",
-  "version": "5.5.38"
+  "metadata": {
+    "install": "source build",
+    "language": "php",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    }
+  }
 }

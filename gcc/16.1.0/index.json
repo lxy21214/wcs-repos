@@ -1,31 +1,34 @@
 {
-  "components": [
-    {
-      "filename": "gcc-16.1.0.tar.xz",
-      "format": "tar.xz",
-      "name": "gcc-source",
-      "provides": [
-        "gcc",
-        "g++",
-        "gccgo",
-        "gfortran"
-      ],
-      "role": "source",
-      "sha256": "50efb4d94c3397aff3b0d61a5abd748b4dd31d9d3f2ab7be05b171d36a510f79",
-      "upstream": "GNU FTP",
-      "url": "https://ftp.gnu.org/gnu/gcc/gcc-16.1.0/gcc-16.1.0.tar.xz",
-      "version": "16.1.0"
-    }
-  ],
-  "install": "source build",
-  "language": "c/c++",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
-  },
-  "release_date": "2026-04-30",
-  "schema_version": 3,
+  "schema_version": 4,
   "software": "gcc",
-  "version": "16.1.0"
+  "version": "16.1.0",
+  "packages": {
+    "gcc-source": {
+      "filename": "gcc-16.1.0.tar.xz",
+      "sha256": "50efb4d94c3397aff3b0d61a5abd748b4dd31d9d3f2ab7be05b171d36a510f79",
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-16.1.0/gcc-16.1.0.tar.xz",
+      "version": "16.1.0",
+      "metadata": {
+        "format": "tar.xz",
+        "provides": [
+          "gcc",
+          "g++",
+          "gccgo",
+          "gfortran"
+        ],
+        "role": "source",
+        "upstream": "GNU FTP"
+      }
+    }
+  },
+  "metadata": {
+    "install": "source build",
+    "language": "c/c++",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    },
+    "release_date": "2026-04-30"
+  }
 }

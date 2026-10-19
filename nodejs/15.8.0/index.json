@@ -1,45 +1,49 @@
 {
-  "components": [
-    {
-      "bundled_components": {
-        "npm": "7.5.1"
-      },
+  "schema_version": 4,
+  "software": "nodejs",
+  "version": "15.8.0",
+  "packages": {
+    "nodejs": {
       "filename": "node-v15.8.0-linux-x64.tar.xz",
-      "format": "xz",
-      "name": "nodejs",
-      "provides": [
-        "node",
-        "corepack"
-      ],
-      "role": "runtime",
       "sha256": "cdb80f0810e5a076eb6079297073147d2564b1c2292bb4436b3f9e9e4fe18759",
       "url": "https://nodejs.org/dist/v15.8.0/node-v15.8.0-linux-x64.tar.xz",
-      "version": "15.8.0"
+      "version": "15.8.0",
+      "metadata": {
+        "bundled_components": {
+          "npm": "7.5.1"
+        },
+        "format": "xz",
+        "provides": [
+          "node",
+          "corepack"
+        ],
+        "role": "runtime"
+      }
     },
-    {
+    "npm": {
       "filename": "npm-7.5.1.tgz",
-      "format": "tgz",
-      "name": "npm",
-      "paired_with": {
-        "nodejs": "15.8.0"
-      },
-      "provides": [
-        "npm",
-        "npx"
-      ],
-      "role": "package-manager",
       "sha256": "06b8f44a683381ca94fc3b3fcf8e2f76b0128cd8af5d2adb08460e319d8c4581",
       "url": "https://registry.npmjs.org/npm/-/npm-7.5.1.tgz",
-      "version": "7.5.1"
+      "version": "7.5.1",
+      "metadata": {
+        "format": "tgz",
+        "paired_with": {
+          "nodejs": "15.8.0"
+        },
+        "provides": [
+          "npm",
+          "npx"
+        ],
+        "role": "package-manager"
+      }
     }
-  ],
-  "language": "javascript",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
   },
-  "schema_version": 3,
-  "software": "nodejs",
-  "version": "15.8.0"
+  "metadata": {
+    "language": "javascript",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    }
+  }
 }

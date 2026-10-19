@@ -1,31 +1,34 @@
 {
-  "components": [
-    {
-      "filename": "gcc-13.1.0.tar.xz",
-      "format": "tar.xz",
-      "name": "gcc-source",
-      "provides": [
-        "gcc",
-        "g++",
-        "gccgo",
-        "gfortran"
-      ],
-      "role": "source",
-      "sha256": "61d684f0aa5e76ac6585ad8898a2427aade8979ed5e7f85492286c4dfc13ee86",
-      "upstream": "GNU FTP",
-      "url": "https://ftp.gnu.org/gnu/gcc/gcc-13.1.0/gcc-13.1.0.tar.xz",
-      "version": "13.1.0"
-    }
-  ],
-  "install": "source build",
-  "language": "c/c++",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
-  },
-  "release_date": "2023-04-26",
-  "schema_version": 3,
+  "schema_version": 4,
   "software": "gcc",
-  "version": "13.1.0"
+  "version": "13.1.0",
+  "packages": {
+    "gcc-source": {
+      "filename": "gcc-13.1.0.tar.xz",
+      "sha256": "61d684f0aa5e76ac6585ad8898a2427aade8979ed5e7f85492286c4dfc13ee86",
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-13.1.0/gcc-13.1.0.tar.xz",
+      "version": "13.1.0",
+      "metadata": {
+        "format": "tar.xz",
+        "provides": [
+          "gcc",
+          "g++",
+          "gccgo",
+          "gfortran"
+        ],
+        "role": "source",
+        "upstream": "GNU FTP"
+      }
+    }
+  },
+  "metadata": {
+    "install": "source build",
+    "language": "c/c++",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    },
+    "release_date": "2023-04-26"
+  }
 }

@@ -1,31 +1,34 @@
 {
-  "components": [
-    {
-      "filename": "gcc-14.3.0.tar.xz",
-      "format": "tar.xz",
-      "name": "gcc-source",
-      "provides": [
-        "gcc",
-        "g++",
-        "gccgo",
-        "gfortran"
-      ],
-      "role": "source",
-      "sha256": "e0dc77297625631ac8e50fa92fffefe899a4eb702592da5c32ef04e2293aca3a",
-      "upstream": "GNU FTP",
-      "url": "https://ftp.gnu.org/gnu/gcc/gcc-14.3.0/gcc-14.3.0.tar.xz",
-      "version": "14.3.0"
-    }
-  ],
-  "install": "source build",
-  "language": "c/c++",
-  "platform": {
-    "arch": "x86_64",
-    "libc": "gnu",
-    "os": "linux"
-  },
-  "release_date": "2025-05-23",
-  "schema_version": 3,
+  "schema_version": 4,
   "software": "gcc",
-  "version": "14.3.0"
+  "version": "14.3.0",
+  "packages": {
+    "gcc-source": {
+      "filename": "gcc-14.3.0.tar.xz",
+      "sha256": "e0dc77297625631ac8e50fa92fffefe899a4eb702592da5c32ef04e2293aca3a",
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-14.3.0/gcc-14.3.0.tar.xz",
+      "version": "14.3.0",
+      "metadata": {
+        "format": "tar.xz",
+        "provides": [
+          "gcc",
+          "g++",
+          "gccgo",
+          "gfortran"
+        ],
+        "role": "source",
+        "upstream": "GNU FTP"
+      }
+    }
+  },
+  "metadata": {
+    "install": "source build",
+    "language": "c/c++",
+    "platform": {
+      "arch": "x86_64",
+      "libc": "gnu",
+      "os": "linux"
+    },
+    "release_date": "2025-05-23"
+  }
 }
