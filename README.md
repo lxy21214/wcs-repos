@@ -11,23 +11,34 @@
 | `<软件>/<版本>/index.json` | 649 份 v4 软件索引 |
 | `manifest.json` | 生成的软件版本目录与计数 |
 | `index-bundle.json` | 生成的全部索引汇总，每项包含 `_path` |
-| `protocol.md` | v4 协议 |
-| `schema/software-index-v4.schema.json` | v4 JSON Schema |
-| `cli/` | wcs-repo 的 Go 源码、测试和构建脚本 |
-| `bin/linux-amd64/` | 静态 CLI 二进制和 SHA256SUMS |
-| `metadata/` | 历史上游采集记录与辅助代码，不是消费者读取的正式索引 |
-| `chrome/` | Chrome for Testing 索引及 Git LFS 缓存 |
+| `.metadata/` | 历史上游采集记录，不是消费者读取的正式索引 |
+| `chrome` | Chrome for Testing 索引及 Git LFS 缓存 |
 | `chrome-devtools-mcp/` | MCP 索引及原始 npm 包缓存 |
 
-`wcs-repo` 只读取 v4，提供 `list / show / fetch / cache / check / index`，使用方式见 [cli/README.md](cli/README.md)。运行时无需安装 Go、Python 或 Node.js。
+`wcs-repo` 只读取 v4，提供 `list / show / fetch / cache / check / index`，使用方式见相邻模块 [wcs-repo-tools](../wcs-repo-tools/README.md)。运行时无需安装 Go、Python 或 Node.js。
 
 ```sh
-./bin/linux-amd64/wcs-repo --repo . list python
-./bin/linux-amd64/wcs-repo --repo . show python 3.13t.16
-./bin/linux-amd64/wcs-repo --repo . check --json
+../wcs-repo-tools/bin/linux-amd64/wcs-repo --repo . list python
+../wcs-repo-tools/bin/linux-amd64/wcs-repo --repo . show python 3.13t.16
+../wcs-repo-tools/bin/linux-amd64/wcs-repo --repo . check --json
 ```
 
 仓库地址必须显式提供，可以是本地目录，或者通过 `--repo` / `SOFTWARE_REPO_URL` 指定 GitHub 仓库；`--ref` / `SOFTWARE_REPO_REF` 默认 `main`。需要固定构建输入时使用 commit。
+
+## 模块边界
+
+本仓库只保存软件索引、原始文件缓存、生成的汇总文件及来源记录。顶层普通目录表示具体软件，内部记录使用 `.metadata/`、临时缓存使用 `.cache/`。
+
+工具源码、二进制及历史采集辅助代码已拆到 `wcs-repo-tools`；协议与 JSON Schema 已拆到 `wcs-repo-protocol`，后者根目录直接放置 `protocol.md` 和 `software-index-v4.schema.json`，不再与软件目录混在一起。三者是独立仓库，本地并列放置在 `.related-modules/` 下：
+
+```text
+.related-modules/
+├── wcs-repos/
+├── wcs-repo-tools/
+└── wcs-repo-protocol/
+```
+
+文档中的跨模块相对链接按此本地布局使用。新模块的远程发布地址尚未配置。协议见 [protocol.md](../wcs-repo-protocol/protocol.md)，Schema 见 [software-index-v4.schema.json](../wcs-repo-protocol/software-index-v4.schema.json)。CLI 可以在任意位置运行，通过 `--repo` 指定数据仓库；它不要求运行时读取 Schema 文件。历史版本的工具文件仍可从 Git 历史中获取。
 
 ## 索引结构
 
@@ -88,16 +99,16 @@ Chrome 的来源与缓存说明见 [chrome/README.md](chrome/README.md)，MCP �
 
 ```sh
 # 只下载明确选择的包；不下载同索引内的其他包，也不执行安装。
-./bin/linux-amd64/wcs-repo --repo . fetch python 3.13t.16 \
+../wcs-repo-tools/bin/linux-amd64/wcs-repo --repo . fetch python 3.13t.16 \
   --package python --package uv --output /tmp/python-downloads --json
 
 # 修改版本索引或缓存记录后重建两个汇总文件，再校验。
-./bin/linux-amd64/wcs-repo --repo . index
-./bin/linux-amd64/wcs-repo --repo . check
+../wcs-repo-tools/bin/linux-amd64/wcs-repo --repo . index
+../wcs-repo-tools/bin/linux-amd64/wcs-repo --repo . check
 ```
 
 唯一维护入口是各版本的 `index.json`；不手工同步 manifest 和汇总索引。`check` 检查协议字段、目录身份、相对路径、声明缓存的 SHA-256，以及已存在汇总文件的一致性。
 
 主项目的 `arguments/<variant>.sh` 显式设置 `SOFTWARE_INDEX=<软件>/<版本>/index.json`，由容器内安装脚本读取；渲染器只复制脚本，不解析其中的变量。多 variant 的生成必须明确选择，不批量生成 artifact 或镜像。
 
-缓存软件包只按明确需求保存。Chrome 使用 Git LFS，克隆后需 `git lfs pull` 获取实体；MCP 使用普通 Git。未声明的临时文件放入 `.cache/`。CLI 不自动提交或 push，发布时需同时提交索引及其引用的缓存文件。
+缓存软件包只按明确需求保存。Chrome 使用 Git LFS，克隆后需 `git lfs pull` 获取实体；MCP 使用普通 Git。未声明的临时文件放入 `.cache`。CLI 不自动提交或 push，发布时需同时提交索引及其引用的缓存文件。

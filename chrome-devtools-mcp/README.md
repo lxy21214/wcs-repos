@@ -27,6 +27,6 @@
 - npm 的 `gitHead` 与相应 Git tag 提交逐一匹配；已检查包内 `package.json` 的名称、版本及命令入口存在。
 - 包的 `metadata.engines.node` 记录对应包的 Node.js 要求；Node.js 和 Chrome 由消费方另行提供，未在本次缓存中安装或构建它们。
 - 索引顶层 `metadata.platform` 表示本项目的 Linux x86_64 使用目标；缓存仍是上游原始 npm 包。
-- 来源、完整的已观察 1.x tags 和选中包的发布元数据保存在 [metadata](../metadata/chrome-devtools-mcp_items.json)。
+- 来源、完整的已观察 1.x tags 和选中包的发布元数据保存在 [.metadata](../.metadata/chrome-devtools-mcp_items.json)。
 
 每条版本线新增补丁时重新按 tags 筛选；是否替换旧缓存需显式执行，不自动更新安装环境。
